@@ -8,8 +8,8 @@ titles:
 key: page-about
 ---
 
-Just say something about yourself. :+1:
+喜欢寻根究底~~折腾~~的未来数据科学家/电子工程师。
 
-{% highlight javascript %}
-  (() => console.log('hello, world!'))();
+{% highlight Python %}
+  print ('hello, world!')
 {% endhighlight %}
