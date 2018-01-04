@@ -8,7 +8,7 @@ titles:
 key: page-about
 ---
 
-喜欢寻根究底~~折腾~~的未来数据科学家/电子工程师。
+喜欢寻根究底 ~~折腾~~ 的未来数据科学家 // 曾经电子工程师。
 
 {% highlight Python %}
   print ('hello, world!')
