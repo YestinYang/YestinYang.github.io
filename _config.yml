@@ -14,7 +14,7 @@
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: Yeung Yuet's Blog
+title: Yuet's Blog
 description: > #this means to ignore newlines until "nav_lists:"
   浅水喧闹 深潭无波
 
