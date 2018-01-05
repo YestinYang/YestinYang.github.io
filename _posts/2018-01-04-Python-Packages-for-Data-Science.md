@@ -9,8 +9,9 @@ lang: en
 
 This blog is created to record the Python packages of data science found in daily practice or reading, covering the whole process of machine learning from visualization and pre-processing to model training and deployment.
 
-# Purpose
+## Purpose
 
+Test the syn function of StackEdit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTI2OTMyMl19
+eyJoaXN0b3J5IjpbLTU5MjQ2NjE4M119
 -->
