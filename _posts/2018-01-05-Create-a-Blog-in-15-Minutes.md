@@ -36,7 +36,9 @@ lang: en
 
 ##  2. 选择博客主题
 
-创建GitHub Repository后，最为愉悦 ~~纠结~~ 的阶段很久就来到了，
+创建GitHub Repository后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
+
+打开Jekyll Themes，慢慢挑选。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzIyMjk4N119
+eyJoaXN0b3J5IjpbOTAzNjkxMjQyXX0=
 -->
