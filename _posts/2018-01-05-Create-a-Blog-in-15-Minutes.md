@@ -13,9 +13,11 @@ lang: en
 
 利用GitHub Pages项目博客生成系统，在GitHub Repository中建立必要的网站文件结构，最终通过StackEdit进行文章写作。
 
-在开始之前，我们
+在开始之前，我们需要准备：
+
+- 
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjI0NDAwNF19
+eyJoaXN0b3J5IjpbMTczMjU5Mzg1XX0=
 -->
