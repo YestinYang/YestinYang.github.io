@@ -16,7 +16,7 @@ lang: en
 建立并使用整个博客，我们需要完成下列几项：
 
 -  一个GitHub账号
--  从Jekyll Themes中选择喜欢的主题，并复制到自己的GitHub中
+-  从Jekyll Themes中选择喜欢的样式，并复制到自己的GitHub中
 -  设置网站的基本信息
 -  用StackEdit撰写博文
 
@@ -50,5 +50,5 @@ lang: en
 
 ##  3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NzQ3Mjg2XX0=
+eyJoaXN0b3J5IjpbMjAzNzM5NDE5M119
 -->
