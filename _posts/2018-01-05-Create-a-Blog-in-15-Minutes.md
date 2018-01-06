@@ -11,16 +11,16 @@ lang: en
 
 ## 基本思路和准备条件
 
-利用GitHub Pages项目博客生成系统，在GitHub Repository中建立必要的网站文件结构，最终通过StackEdit进行文章写作。
+利用GitHub Pages项目博客生成系统，在GitHub Repository中建立必要的网站文件结构，最终通过StackEdit以Markdown语言撰写博文。
 
 建立并使用整个博客，我们需要完成下列几项：
 
 -  一个GitHub账号， 并建立一个repository
 -  从Jekyll Themes中选择喜欢的主题，并转移到repository中
 -  设置网站的基本信息
--  
+-  用StackEdit撰写博文
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODIzNDgxNV19
+eyJoaXN0b3J5IjpbLTgyNDI5ODY1NV19
 -->
