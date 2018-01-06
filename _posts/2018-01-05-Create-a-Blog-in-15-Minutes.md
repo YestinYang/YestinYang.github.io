@@ -24,7 +24,7 @@ lang: en
 
 ##  1. 建立GitHub账号和Repository
 
-jian'dan
+简单来说，这是存放整个网站信息的地方
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjA4NzgyNF19
+eyJoaXN0b3J5IjpbNDQ2OTM3NTEzXX0=
 -->
