@@ -28,7 +28,9 @@ lang: en
 
 访问[GitHub](https://github.com/)主页申请一个账号。完成申请后登陆，点击右上角的加号（如下图）
 
-![enter image description here](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_GitHub.png)
+![GitHub](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_GitHub.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTgxNDkzOTBdfQ==
+eyJoaXN0b3J5IjpbMzM0NTYxNTgwXX0=
 -->
