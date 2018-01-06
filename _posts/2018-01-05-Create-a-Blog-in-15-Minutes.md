@@ -32,8 +32,6 @@ lang: en
 
 接着建立Repository，注意`Repository name`一定要以你的用户名（也就是前面的`Owner`) 开头，后面加上`.github.io`。勾上`Initialize this repository with a README`，点绿色按钮完成创建。
 
-![Repo](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Repo.png)
-
 ##  2. 选择博客主题
 
 创建GitHub Repository后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
@@ -43,6 +41,18 @@ lang: en
 ![Jekyll](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Jekyll.png)
 
 选好后，点击主题页面中的`Homepage`（上图中`Demo`左边），来到这个主题的GitHub页面。选择右上角的`Fork`，此时GitHub就把这个网站的模板放到你的账号中，以一个Repository的方式保存。
+
+![Fork](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Fork.png)
+
+接着，点击下图中的`Settings`。
+
+![Settings](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Settings.png)
+
+将`Repository name`改为以你的用户名开头，后面加上`.github.io`。点`Rename`完成修改。
+
+![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
+
+此时去泡杯茶跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/。怎么样，你的博客已经以你喜欢的样子上线了！
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODIwMDg3OV19
+eyJoaXN0b3J5IjpbMTk0NjAwMzEzOV19
 -->
