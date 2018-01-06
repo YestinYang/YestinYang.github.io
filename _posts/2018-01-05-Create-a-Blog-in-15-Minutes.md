@@ -50,15 +50,34 @@ lang: en
 
 ##  3. 设置博客的基本信息
 
-在此处仅以我的博客样式TeXt为例说明。[^1] 打开Repository根目录下的`_config.yml`，修改下列信息：
+在此处仅以我的博客样式TeXt为例说明。[^1] 打开Repository根目录下的`_config.yml`（GitHub中点下图的铅笔按钮`Edit`）。
 
--  
+![YML](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_yml.png)
 
+依次修改下列信息后，点最下方的绿色按钮保存：
 
+-  `title`改成你的博客名
+-  `description`是鼠标移到你的博客名上悬停时，显示的信息
+-  `timezone`你所在的时区（默认亚洲/上海）
+-  `author`中的信息是你的个人信息。比如你想在网站的下方显示你的Linkedin链接，就去掉`linkedin`项前面的`#`号，在冒号后填入你的Linkedin链接最后一段即可。
 
+此外，你可以选择在`about.md`中写一些关于你自己的信息。[^2]
+
+##  4. 用StackEdit撰写博文
+
+GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”两个字先别慌，其实一篇Markdown文档中99%都是你自己写的内容，1%是控制文章格式的符号。花10分钟阅读一下[简书上的教程](https://www.jianshu.com/p/q81RER)就可以上手🏆。
+
+回到正题，StackEdit是一个免费的Markdown在线编辑器，其最重要的特性是可以与GitHub Repository中的文件进行双向同步。也就是说，我们可以在GitHub中建立我们的文档后，在StackEdit中进行文章的撰写。~~其实最吸引人的特性是可以spell check~~
+
+按照下图创建博文文件。
+
+```markdown
+
+```
 
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
+[^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU3MDQ5OTddfQ==
+eyJoaXN0b3J5IjpbLTkxMDg0NTA1M119
 -->
