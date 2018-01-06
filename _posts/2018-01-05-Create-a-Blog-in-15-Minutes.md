@@ -15,14 +15,14 @@ lang: en
 
 建立并使用整个博客，我们需要完成下列几项：
 
--  一个GitHub账号， 并建立一个repository
--  从Jekyll Themes中选择喜欢的主题，并转移到repository中
+-  一个GitHub账号
+-  从Jekyll Themes中选择喜欢的主题，并复制到自己的GitHub中
 -  设置网站的基本信息
 -  用StackEdit撰写博文
 
 这里面提到了Markdown语言，后面会提供一些别人教程的链接。这是一种非常简单快捷的写作方式，推荐所有用电脑写文章的朋友用额外的10分钟学习，一定物超所值（从高效写作的角度完全超越Word）。
 
-##  1. 建立GitHub账号和Repository
+##  1. 建立GitHub账号
 
 简单来说，GitHub Repository是存放整个网站信息的地方，包括了你的网站设置和博客文章。
 
@@ -38,9 +38,11 @@ lang: en
 
 创建GitHub Repository后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
 
-打开Jekyll Themes，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的可以点进去，选择`Demo`可以进一步查看样板网站。
+打开Jekyll Themes，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的可以点进去，选择`Demo`可以进一步查看样板网站。你会发现很多平时看到的高大上的博客页面，都能在这里找到。
 
+![Jekyll](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Jekyll.png)
 
+选好后，点击主题页面中的`Homepage`（上图中`Demo`左边），来到这个主题的GitHub页面。选择右上角的`Fork`，此时GitHub就把这个网站的模板放到你的账号中，以一个Repository的方式保存。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI5NDMxODJdfQ==
+eyJoaXN0b3J5IjpbMTQxODIwMDg3OV19
 -->
