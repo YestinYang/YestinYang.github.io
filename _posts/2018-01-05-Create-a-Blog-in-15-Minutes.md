@@ -50,7 +50,7 @@ lang: en
 
 ##  3. 设置博客的基本信息
 
-每个设置有细微的差别，
+每个样式的设置有细微的差别，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjA2NzU0Nl19
+eyJoaXN0b3J5IjpbMTQ1NzY5Mjg0Nl19
 -->
