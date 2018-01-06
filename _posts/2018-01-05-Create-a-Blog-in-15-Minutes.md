@@ -15,10 +15,10 @@ lang: en
 
 在开始之前，我们需要准备：
 
-- 
+- 一个GitHub账号， 
 - 
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTAwMTkzMl19
+eyJoaXN0b3J5IjpbMTY2MzM0MzIzNF19
 -->
