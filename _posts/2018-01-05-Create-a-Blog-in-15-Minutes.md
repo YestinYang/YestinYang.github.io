@@ -30,9 +30,9 @@ lang: en
 
 ![GitHub](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_GitHub.png)
 
-接着建立Repository来储存wo
+接着建立Repository来保存博客wang'zha的信息。
 
 ![Repo](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Repo.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxODExOTU5XX0=
+eyJoaXN0b3J5IjpbMTAwMTcwMDE4OV19
 -->
