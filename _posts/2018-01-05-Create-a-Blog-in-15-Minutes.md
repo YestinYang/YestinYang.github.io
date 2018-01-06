@@ -30,9 +30,9 @@ lang: en
 
 ![GitHub](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_GitHub.png)
 
-接着建立Repository，注意Repository name
+接着建立Repository，注意`Repository name`
 
 ![Repo](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Repo.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODIxNjcxMzhdfQ==
+eyJoaXN0b3J5IjpbLTE3ODYzNzg2ODhdfQ==
 -->
