@@ -44,9 +44,11 @@ lang: en
 
 选好后，点击主题页面中的`Homepage`（上图中`Demo`左边），来到这个主题的GitHub页面。选择右上角的`Fork`，此时GitHub就把这个网站的模板放到你的账号中，以一个Repository的方式保存。
 
-![enter image description here](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Fork.png)
+![Fork](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Fork.png)
 
+接着，点击Settings
 
+![Settings](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Settings.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDA4Nzc4Nl19
+eyJoaXN0b3J5IjpbLTE4NzU1NTk5NDldfQ==
 -->
