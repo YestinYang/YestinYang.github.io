@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 15分钟创建个人博客 @ GitHub Pages
+title: 15分钟创建免费个人博客 @ GitHub Pages
 key: 20180105
 tags:
   - tutorial
@@ -26,11 +26,11 @@ lang: en
 
 简单来说，GitHub Repository是存放整个网站信息的地方，包括了你的网站设置和博客文章。
 
-访问[GitHub](https://github.com/)主页申请一个账号。完成申请后登陆，点击右上角的加号（如下图）
+访问[GitHub](https://github.com/)主页申请一个账号。完成申请后登陆，点击右上角的加号选择New repository（如下图）。
 
 ![GitHub](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_GitHub.png)
 
-
+接着
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0NTYxNTgwXX0=
+eyJoaXN0b3J5IjpbMTEyNTQ1OTUyOV19
 -->
