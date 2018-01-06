@@ -32,8 +32,6 @@ lang: en
 
 接着建立Repository，注意`Repository name`一定要以你的用户名（也就是前面的`Owner`) 开头，后面加上`.github.io`。勾上`Initialize this repository with a README`，点绿色按钮完成创建。
 
-![Repo]()
-
 ##  2. 选择博客主题
 
 创建GitHub Repository后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
@@ -46,11 +44,13 @@ lang: en
 
 ![Fork](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Fork.png)
 
-接着，点击下图中的`Settings`
+接着，点击下图中的`Settings`。
 
 ![Settings](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Settings.png)
 
+将`Repository name`改为以你的用户名（也就是前面的`Owner`) 开头，后面加上`.github.io`
+
 ![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzIyNDczOV19
+eyJoaXN0b3J5IjpbNjAxMDEyNzM1XX0=
 -->
