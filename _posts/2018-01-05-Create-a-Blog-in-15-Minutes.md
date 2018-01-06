@@ -46,7 +46,7 @@ lang: en
 
 ![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
 
-此时去泡杯茶，跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/。怎么样，你的博客已经以你喜欢的样子上线了！
+此时去泡杯茶，跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/（也就是https://+上面的Repository name）。怎么样，你的博客已经以你喜欢的样子上线了！
 
 ##  3. 设置博客的基本信息
 
@@ -60,5 +60,5 @@ lang: en
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzY5MjAyOV19
+eyJoaXN0b3J5IjpbMTU0MzA5NTc4XX0=
 -->
