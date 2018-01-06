@@ -7,7 +7,7 @@ tags:
 lang: en
 ---
 
-作为这个博客的第一篇文章，先写写我是如何创建这个博客的。与标题不同，我花了N倍于15分钟的时间来开启这个博客，而秉持着“围绕核心目标简化
+作为这个博客的第一篇文章，先写写我是如何创建这个博客的。与标题不同，我花了N倍于15分钟的时间来开启这个博客，而秉持着“解决核心问题”的思路
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY5NDg1MTVdfQ==
+eyJoaXN0b3J5IjpbLTIwODEwNTM5NThdfQ==
 -->
