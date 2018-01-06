@@ -40,7 +40,7 @@ lang: en
 
 打开Jekyll Themes，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的可以点进去，选择`Demo`可以进一步查看样板网站。
 
-![Je](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Jekyll.png)
+![Jekyll](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Jekyll.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDk5NDYyMl19
+eyJoaXN0b3J5IjpbLTExNjY0Mzk0MDRdfQ==
 -->
