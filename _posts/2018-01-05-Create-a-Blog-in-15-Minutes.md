@@ -11,9 +11,9 @@ lang: en
 
 ## 基本思路和准备条件
 
-利用GitHub Pages项目博客生成系统，在GitHub
+利用GitHub Pages项目博客生成系统，在GitHub Repository中建立必要的网站信息结构（从主题样板中拷贝）
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3ODQyNTYyXX0=
+eyJoaXN0b3J5IjpbLTUxNTAxODIyNl19
 -->
