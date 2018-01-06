@@ -20,8 +20,8 @@ lang: en
 -  设置网站的基本信息
 -  用StackEdit撰写博文
 
-这里面提到了Markdown语言，其实是一种非常简单快捷的写作方式，推荐所有用电脑写文章的朋友用另外的5分钟学习（从高效写作的角度完全超越Word）。
+这里面提到了Markdown语言，其实是一种非常简单快捷的写作方式，推荐所有用电脑写文章的朋友用额外的5分钟学习（从高效写作的角度完全超越Word）。
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDc3Mjk2MF19
+eyJoaXN0b3J5IjpbLTE3NDc0NDI4NzFdfQ==
 -->
