@@ -32,7 +32,7 @@ lang: en
 
 接着建立Repository，注意`Repository name`一定要以你的用户名（也就是前面的`Owner`) 开头，后面加上`.github.io`。勾上`Initialize this repository with a README`，点绿色按钮完成创建。
 
-![Repo](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Repo.png)
+![Repo]()
 
 ##  2. 选择博客主题
 
@@ -49,6 +49,8 @@ lang: en
 接着，点击下图中的`Settings`
 
 ![Settings](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Settings.png)
+
+![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5MDY2MzgzXX0=
+eyJoaXN0b3J5IjpbMjA3MzIyNDczOV19
 -->
