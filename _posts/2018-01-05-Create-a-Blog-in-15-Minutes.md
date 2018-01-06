@@ -36,7 +36,7 @@ lang: en
 
 ##  2. 选择博客主题
 
-创建最为愉悦 ~~纠结~~ 的阶段很久就来到了，
+创建GitHub Repository后，最为愉悦 ~~纠结~~ 的阶段很久就来到了，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjgxNzQ1NF19
+eyJoaXN0b3J5IjpbLTQ1NzIyMjk4N119
 -->
