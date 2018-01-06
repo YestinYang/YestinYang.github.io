@@ -24,7 +24,7 @@ lang: en
 
 ##  1. 建立GitHub账号和Repository
 
-简单来说，这是存放整个网站信息的地方
+简单来说，GitHub Repository是用来开发一个这是存放整个网站信息的地方
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2OTM3NTEzXX0=
+eyJoaXN0b3J5IjpbLTE1MDA3NzYzNDNdfQ==
 -->
