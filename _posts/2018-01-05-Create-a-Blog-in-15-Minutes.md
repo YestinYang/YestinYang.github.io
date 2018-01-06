@@ -16,7 +16,7 @@ lang: en
 建立并使用整个博客，我们需要完成下列几项：
 
 -  一个GitHub账号
--  从Jekyll Themes中选择喜欢的主题，并复制到自己的GitHub中
+-  从Jekyll Themes中选择喜欢的样式，并复制到自己的GitHub中
 -  设置网站的基本信息
 -  用StackEdit撰写博文
 
@@ -24,19 +24,13 @@ lang: en
 
 ##  1. 建立GitHub账号
 
-简单来说，GitHub Repository是存放整个网站信息的地方，包括了你的网站设置和博客文章。
+简单来说，GitHub Repository是存放整个网站信息的地方，包括了你的网站设置和博客文章。因此我们需要在[GitHub](https://github.com/)上申请一个账号。
 
-访问[GitHub](https://github.com/)主页申请一个账号。完成申请后登陆，点击右上角的加号选择`New repository`（如下图）。
+##  2. 选择博客样式
 
-![GitHub](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_GitHub.png)
+创建完账号后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
 
-接着建立Repository，注意`Repository name`一定要以你的用户名（也就是前面的`Owner`) 开头，后面加上`.github.io`。勾上`Initialize this repository with a README`，点绿色按钮完成创建。
-
-##  2. 选择博客主题
-
-创建GitHub Repository后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
-
-打开Jekyll Themes，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的可以点进去，选择`Demo`可以进一步查看样板网站。你会发现很多平时看到的高大上的博客页面，都能在这里找到。
+打开[Jekyll Themes](http://jekyllthemes.org/)，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的可以点进去，选择`Demo`可以进一步查看样板网站。你会发现很多平时看到的高大上的博客页面，都能在这里找到。
 
 ![Jekyll](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Jekyll.png)
 
@@ -52,7 +46,11 @@ lang: en
 
 ![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
 
-此时去泡杯茶跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/。怎么样，你的博客已经以你喜欢的样子上线了！
+此时去泡杯茶，跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/。怎么样，你的博客已经以你喜欢的样子上线了！
+
+##  3. 设置博客的基本信息
+
+每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。在此处仅以我的博客样式TeXt为例说明。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjAwMzEzOV19
+eyJoaXN0b3J5IjpbMTA0MjcyMTEwOV19
 -->
