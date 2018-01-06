@@ -24,7 +24,7 @@ lang: en
 
 ##  1. 建立GitHub账号和Repository
 
-jian
+这是
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjM4NjUwMl19
+eyJoaXN0b3J5IjpbLTk0ODk2NTQ1Nl19
 -->
