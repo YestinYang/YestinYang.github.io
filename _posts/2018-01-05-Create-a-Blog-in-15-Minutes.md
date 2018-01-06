@@ -38,7 +38,7 @@ lang: en
 
 创建GitHub Repository后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
 
-打开Jekyll Themes，慢慢挑选。j大部分主题都是
+打开Jekyll Themes，慢慢挑选。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODUxMzI4MF19
+eyJoaXN0b3J5IjpbOTAzNjkxMjQyXX0=
 -->
