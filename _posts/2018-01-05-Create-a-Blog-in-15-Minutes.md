@@ -52,7 +52,7 @@ lang: en
 
 ![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
 
-此时去泡杯茶
+此时去泡杯茶跟家人聊聊天，10分钟后回来看看
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA1MDQ2NzRdfQ==
+eyJoaXN0b3J5IjpbLTQ3NDk1ODE2OV19
 -->
