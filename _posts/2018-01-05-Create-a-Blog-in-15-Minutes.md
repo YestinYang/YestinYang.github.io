@@ -27,6 +27,8 @@ lang: en
 简单来说，GitHub Repository是存放整个网站信息的地方，包括了你的网站设置和博客文章。
 
 访问[GitHub](https://github.com/)主页申请一个账号。完成申请后登陆，点击右上角的加号（如下图）
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjM1NjU2Ml19
+eyJoaXN0b3J5IjpbLTMwMTc3Mjg4Ml19
 -->
