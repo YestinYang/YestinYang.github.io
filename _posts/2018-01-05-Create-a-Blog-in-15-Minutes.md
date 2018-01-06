@@ -24,17 +24,11 @@ lang: en
 
 ##  1. 建立GitHub账号
 
-简单来说，GitHub Repository是存放整个网站信息的地方，包括了你的网站设置和博客文章。
+简单来说，GitHub Repository是存放整个网站信息的地方，包括了你的网站设置和博客文章。因此我们需要在[GitHub](https://github.com/)上申请一个账号。
 
-访问[GitHub](https://github.com/)主页申请一个账号。完成申请后登陆，点击右上角的加号选择`New repository`（如下图）。
+##  2. 选择博客样式
 
-![GitHub](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_GitHub.png)
-
-接着建立Repository，注意`Repository name`一定要以你的用户名（也就是前面的`Owner`) 开头，后面加上`.github.io`。勾上`Initialize this repository with a README`，点绿色按钮完成创建。
-
-##  2. 选择博客主题
-
-创建GitHub Repository后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
+创建完账号后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
 
 打开[Jekyll Themes](http://jekyllthemes.org/)，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的可以点进去，选择`Demo`可以进一步查看样板网站。你会发现很多平时看到的高大上的博客页面，都能在这里找到。
 
@@ -56,5 +50,5 @@ lang: en
 
 ##  3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzA3NDk5NV19
+eyJoaXN0b3J5IjpbNjI5NzQ3Mjg2XX0=
 -->
