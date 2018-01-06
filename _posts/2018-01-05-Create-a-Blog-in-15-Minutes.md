@@ -15,10 +15,10 @@ lang: en
 
 建立并使用整个博客，我们需要完成下列几项：
 
-- 一个GitHub账号， 以及一个repository
-- 
+-  一个GitHub账号， 并建立一个repository
+-  从Jekyll的主题库中选择我们喜欢的
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDY4ODQ3NF19
+eyJoaXN0b3J5IjpbMTg3NjA4NDQ1XX0=
 -->
