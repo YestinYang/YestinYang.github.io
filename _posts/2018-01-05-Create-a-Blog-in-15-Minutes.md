@@ -72,7 +72,7 @@ GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”
 按照下图创建博文文件，在文档开头设置下列文章的信息，最后按最下方绿色按钮保存。
 
 
-{% highlight Python %}
+{% highlight Markdown %}
 ---
 layout: post  # 文章样式，不建议修改
 title: Markdown Example - Definition  # 文章的标题
@@ -86,5 +86,5 @@ tags:
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTY5MTc0N119
+eyJoaXN0b3J5IjpbNTc1NTg0ODg2XX0=
 -->
