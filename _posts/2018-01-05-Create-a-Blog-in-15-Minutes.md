@@ -20,8 +20,8 @@ lang: en
 -  设置网站的基本信息
 -  用StackEdit撰写博文
 
-这里面提到了Markdown语言，其实是一种非常简单明了的编辑f
+这里面提到了Markdown语言，其实是一种非常简单快捷的
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjA3MTI2NF19
+eyJoaXN0b3J5IjpbLTExNDY1OTQ5NTFdfQ==
 -->
