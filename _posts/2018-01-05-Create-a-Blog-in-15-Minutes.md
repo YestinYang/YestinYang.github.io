@@ -36,7 +36,7 @@ lang: en
 
 ##  2. 选择博客主题
 
-jie最为愉悦 ~~纠结~~ 的阶段很久就来到了，
+wan最为愉悦 ~~纠结~~ 的阶段很久就来到了，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDA5NjIzNV19
+eyJoaXN0b3J5IjpbMTQ5MDk2OTMzNV19
 -->
