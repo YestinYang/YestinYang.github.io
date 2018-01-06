@@ -48,9 +48,11 @@ lang: en
 
 ![Settings](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Settings.png)
 
-将`Repository name`改为以你的用户名（也就是前面的`Owner`) 开头，后面加上`.github.io`
+将`Repository name`改为以你的用户名开头，后面加上`.github.io`。点`Rename`完成修改。
 
 ![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
+
+此时去泡杯茶
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMDEyNzM1XX0=
+eyJoaXN0b3J5IjpbLTEyMDA1MDQ2NzRdfQ==
 -->
