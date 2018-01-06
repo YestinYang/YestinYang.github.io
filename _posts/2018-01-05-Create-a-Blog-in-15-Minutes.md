@@ -66,7 +66,7 @@ lang: en
 
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
-[^2]: 此处需使用Markdown语言。
+[^2]: `about.md`需使用Markdown语言。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzkxNDExMF19
+eyJoaXN0b3J5IjpbODI1NTA1MDc4XX0=
 -->
