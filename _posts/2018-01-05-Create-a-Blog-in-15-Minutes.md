@@ -54,9 +54,10 @@ lang: en
 
 ![YML](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_yml.png)
 
-依次修改下列信息：
+依次修改下列信息后，点最下方的绿色按钮保存：
 
--  
+-  `title`改成你的博客名
+-  `desciption`
 
 
 
@@ -64,5 +65,5 @@ lang: en
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc5NDcwMzRdfQ==
+eyJoaXN0b3J5IjpbNDEwNjM0MDMzXX0=
 -->
