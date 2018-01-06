@@ -42,7 +42,7 @@ lang: en
 
 ![Jekyll](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Jekyll.png)
 
-选好后，点击主题页面中的`Homepage`（上图中`Demo`左边），来到这个主题的GitHub页面。选择右上角的`Fork`
+选好后，点击主题页面中的`Homepage`（上图中`Demo`左边），来到这个主题的GitHub页面。选择右上角的`Fork`，此时GitHub就把这个网站的模板放到你的账号中，以一个Repository的方式保存。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjU4OTI2OF19
+eyJoaXN0b3J5IjpbMTQxODIwMDg3OV19
 -->
