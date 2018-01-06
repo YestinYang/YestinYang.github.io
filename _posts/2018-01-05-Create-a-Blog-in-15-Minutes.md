@@ -59,7 +59,7 @@ lang: en
 -  `title`改成你的博客名
 -  `description`是鼠标移到你的博客名上悬停时，显示的信息
 -  `timezone`你所在的时区（默认亚洲/上海）
--  `author`中的信息是你的个人信息
+-  `author`中的信息是你的个人信息。比如你想在网站的下方显示你的Linkedin链接，就去掉`linkedin`项前面的填入你的
 
 
 
@@ -67,5 +67,5 @@ lang: en
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTIxOTc1Ml19
+eyJoaXN0b3J5IjpbLTE4MTQwNzc0NDNdfQ==
 -->
