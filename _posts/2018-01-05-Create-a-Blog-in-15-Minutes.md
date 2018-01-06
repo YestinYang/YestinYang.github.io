@@ -15,10 +15,10 @@ lang: en
 
 建立并使用整个博客，我们需要完成下列几项：
 
--  一个GitHub账号
--  从Jekyll Themes中选择喜欢的样式，并复制到自己的GitHub中
--  设置网站的基本信息
--  用StackEdit撰写博文
+1.  一个GitHub账号
+2. 从Jekyll Themes中选择喜欢的样式，并复制到自己的GitHub中
+3.  设置网站的基本信息
+4. 用StackEdit撰写博文
 
 这里面提到了Markdown语言，后面会提供一些别人教程的链接。这是一种非常简单快捷的写作方式，推荐所有用电脑写文章的朋友用额外的10分钟学习，一定物超所值（从高效写作的角度完全超越Word）。
 
@@ -46,11 +46,19 @@ lang: en
 
 ![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
 
-此时去泡杯茶，跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/。怎么样，你的博客已经以你喜欢的样子上线了！
+此时去泡杯茶，跟家人聊聊天，10分钟后回来，登陆`https://你的用户名.github.io/`（也就是`https:// + Repository name`）。怎么样？你的博客已经以你喜欢的样子上线了！
 
 ##  3. 设置博客的基本信息
 
-每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。在此处仅以我的博客样式TeXt为例说明。
+在此处仅以我的博客样式TeXt为例说明。[^1] 打开Repository根目录下的`_config.yml`，修改下列信息：
+
+-  
+
+
+
+
+
+[^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjcyMTEwOV19
+eyJoaXN0b3J5IjpbLTE3MTU3MDQ5OTddfQ==
 -->
