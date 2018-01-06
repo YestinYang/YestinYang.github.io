@@ -49,6 +49,8 @@ lang: en
 此时去泡杯茶，跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/。怎么样，你的博客已经以你喜欢的样子上线了！
 
 ##  3. 设置博客的基本信息
+
+每个设置有细微的差别，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTQ4OTM1N119
+eyJoaXN0b3J5IjpbMTkxNjA2NzU0Nl19
 -->
