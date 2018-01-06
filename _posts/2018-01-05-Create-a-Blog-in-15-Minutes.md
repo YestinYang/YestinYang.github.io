@@ -7,7 +7,7 @@ tags:
 lang: en
 ---
 
-作为这个博客的第一篇文章，先写写我是如何创建这个博客的。实际其实折腾了很久
+作为这个博客的第一篇文章，先写写我是如何创建这个博客的。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY0MDUzMTddfQ==
+eyJoaXN0b3J5IjpbLTIwNzI3Mjg3NTddfQ==
 -->
