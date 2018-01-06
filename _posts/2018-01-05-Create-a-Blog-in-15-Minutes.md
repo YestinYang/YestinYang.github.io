@@ -41,6 +41,8 @@ lang: en
 打开Jekyll Themes，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的可以点进去，选择`Demo`可以进一步查看样板网站。你会发现很多平时看到的高大上的博客页面，都能在这里找到。
 
 ![Jekyll](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Jekyll.png)
+
+选好后，点击主题页面中的`Homepage`（上图中`Demo`左边），来到这个主题的GitHub页面。选择右上角的`Fork`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTAyNjg1MF19
+eyJoaXN0b3J5IjpbMTExODQyNzY1M119
 -->
