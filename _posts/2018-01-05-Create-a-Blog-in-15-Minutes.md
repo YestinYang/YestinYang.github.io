@@ -69,7 +69,7 @@ GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”
 
 回到正题，StackEdit是一个免费的Markdown在线编辑器，其最重要的特性是可以与GitHub Repository中的文件进行双向同步。也就是说，我们可以在GitHub中建立我们的文档后，在StackEdit中进行文章的撰写。~~其实最吸引人的特性是可以spell check~~
 
-
+创建博文文件
 ```markdown
 
 ```
@@ -78,5 +78,5 @@ GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDU3MDM0N119
+eyJoaXN0b3J5IjpbNDEyODE3NjE2XX0=
 -->
