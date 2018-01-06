@@ -52,7 +52,7 @@ lang: en
 
 ![Rename](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Rename.png)
 
-此时去泡杯茶跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/
+此时去泡杯茶跟家人聊聊天，10分钟后回来，登陆https://你的用户名.github.io/。怎么样，你的博客已经以你喜欢的样子上线了！
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Njg1MDc2M119
+eyJoaXN0b3J5IjpbMTk0NjAwMzEzOV19
 -->
