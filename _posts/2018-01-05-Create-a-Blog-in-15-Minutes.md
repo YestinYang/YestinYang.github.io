@@ -15,10 +15,10 @@ lang: en
 
 建立并使用整个博客，我们需要完成下列几项：
 
--  一个GitHub账号
--  从Jekyll Themes中选择喜欢的样式，并复制到自己的GitHub中
--  设置网站的基本信息
--  用StackEdit撰写博文
+1.  一个GitHub账号
+2. 从Jekyll Themes中选择喜欢的样式，并复制到自己的GitHub中
+3.  设置网站的基本信息
+4. 用StackEdit撰写博文
 
 这里面提到了Markdown语言，后面会提供一些别人教程的链接。这是一种非常简单快捷的写作方式，推荐所有用电脑写文章的朋友用额外的10分钟学习，一定物超所值（从高效写作的角度完全超越Word）。
 
@@ -50,7 +50,9 @@ lang: en
 
 ##  3. 设置博客的基本信息
 
-在此处仅以我的博客样式TeXt为例说明。[^1] 打开Repository根目录下的`_config.yml`
+在此处仅以我的博客样式TeXt为例说明。[^1] 打开Repository根目录下的`_config.yml`，修改下列信息：
+
+-  
 
 
 
@@ -58,5 +60,5 @@ lang: en
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0MDQ1ODYxXX0=
+eyJoaXN0b3J5IjpbMTk1MzY5MjAyOV19
 -->
