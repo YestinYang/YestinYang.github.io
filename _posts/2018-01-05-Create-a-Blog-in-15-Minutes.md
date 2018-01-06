@@ -11,9 +11,9 @@ lang: en
 
 ## 基本思路和准备条件
 
-利用GitHub Pages
+利用GitHub Pages项目博客生成系统，在GitHub
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTAzMDIyN119
+eyJoaXN0b3J5IjpbNTA3ODQyNTYyXX0=
 -->
