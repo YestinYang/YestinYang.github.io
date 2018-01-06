@@ -52,6 +52,7 @@ lang: en
 
 在此处仅以我的博客样式TeXt为例说明。[^1] 打开Repository根目录下的`_config.yml`（GitHub中点下图的铅笔按钮`Edit`）。
 
+![YML](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_yml.png)
 
 依次修改下列信息：
 
@@ -63,5 +64,5 @@ lang: en
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc1Mzc5MDJdfQ==
+eyJoaXN0b3J5IjpbLTEwNTc5NDcwMzRdfQ==
 -->
