@@ -46,9 +46,9 @@ lang: en
 
 ![Fork](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Fork.png)
 
-接着，点击Settings
+接着，点击下图中的`Settings`
 
 ![Settings](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Settings.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU1NTk5NDldfQ==
+eyJoaXN0b3J5IjpbMjE5MDY2MzgzXX0=
 -->
