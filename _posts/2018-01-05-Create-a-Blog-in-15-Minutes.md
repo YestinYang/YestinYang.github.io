@@ -65,11 +65,11 @@ lang: en
 
 ##  4. 用StackEdit撰写博文
 
-GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”两个字先别慌，其实一篇Markdown文档中99%都是你自己写的内容，1%是控制文章格式的符号。花10分钟阅读一下[简书上的教程](https://www.jianshu.com/p/q81RER)，再用Markdown写一篇小短文，你会觉得10fen'zho
+GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”两个字先别慌，其实一篇Markdown文档中99%都是你自己写的内容，1%是控制文章格式的符号。花10分钟阅读一下[简书上的教程](https://www.jianshu.com/p/q81RER)，再用Markdown写一篇小短文，你会觉得10分钟的学习是
 
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzkzNTc1MjddfQ==
+eyJoaXN0b3J5IjpbMTUzMDcxODAxMl19
 -->
