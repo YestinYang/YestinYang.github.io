@@ -50,11 +50,13 @@ lang: en
 
 ##  3. 设置博客的基本信息
 
-在此处仅以我的博客样式TeXt为例说明。
+在此处仅以我的博客样式TeXt为例说明。[^1] 打开Repository根目录下的`_config.yml`
 
 
 
-PS: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
+
+
+[^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ0ODQzMDNdfQ==
+eyJoaXN0b3J5IjpbMjc0MDQ1ODYxXX0=
 -->
