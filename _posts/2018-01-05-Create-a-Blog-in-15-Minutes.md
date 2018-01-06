@@ -16,9 +16,11 @@ lang: en
 建立并使用整个博客，我们需要完成下列几项：
 
 -  一个GitHub账号， 并建立一个repository
--  从Jekyll的主题库中选择我们喜欢的
+-  从Jekyll的主题库中选择我们喜欢的主题，并转移到我们的repository中
+-  设置我们网站的基本信息
+-  
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjA4NDQ1XX0=
+eyJoaXN0b3J5IjpbMTI4NzM1NzkwMF19
 -->
