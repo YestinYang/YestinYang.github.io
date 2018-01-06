@@ -38,7 +38,7 @@ lang: en
 
 创建GitHub Repository后，就到了最为愉悦 ~~纠结~~ 的审美阶段。
 
-打开Jekyll Themes，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的，点进去一般都会有下列三个按钮
+打开Jekyll Themes，绝大部分主题都是支持电脑、平板、手机三平台不同排版的。看到合眼缘的，点进去可以进一步选择样板网站详细查看效果
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTgzMzQzXX0=
+eyJoaXN0b3J5IjpbMTEwMTY1ODUxMV19
 -->
