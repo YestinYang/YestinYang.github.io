@@ -25,6 +25,8 @@ lang: en
 ##  1. 建立GitHub账号和Repository
 
 简单来说，GitHub Repository是存放整个网站信息的地方，包括了你的网站设置和博客文章。
+
+访问[GitHub](https://github.com/)主页申请一个账号，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyNTg3MTU5XX0=
+eyJoaXN0b3J5IjpbMTQ0ODA0Mzk2MV19
 -->
