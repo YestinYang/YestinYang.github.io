@@ -7,7 +7,7 @@ tags:
 lang: en
 ---
 
-作为这个博客的第一篇文章，先写写我是如何创建这个博客的。
+作为这个博客的第一篇文章，先写写我是如何创建这个博客的。与标题不同，我花了N倍于15分钟
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI3Mjg3NTddfQ==
+eyJoaXN0b3J5IjpbMTE0NjY2MjEzNV19
 -->
