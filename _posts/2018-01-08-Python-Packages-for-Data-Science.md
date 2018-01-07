@@ -30,7 +30,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ## Features Selection
 
-** 
+**Genetic Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODYwNTk1OF19
+eyJoaXN0b3J5IjpbLTE5NzMyNzQzNzBdfQ==
 -->
