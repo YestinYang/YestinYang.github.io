@@ -63,9 +63,11 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ## Others
 
-
+**[tqdm](https://pypi.python.org/pypi/tqdm)**
+- progression monitor 
+- 76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
 
 ## Commercial Tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTA2MzQ2NF19
+eyJoaXN0b3J5IjpbLTM1Njk5MTI1OF19
 -->
