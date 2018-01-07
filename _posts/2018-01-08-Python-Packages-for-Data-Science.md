@@ -68,6 +68,10 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - 76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
 
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
+- [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
+
+
+
 
 ## Commercial Tools
 
@@ -79,5 +83,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTI2NDIwM119
+eyJoaXN0b3J5IjpbNzU3ODQxNDU3XX0=
 -->
