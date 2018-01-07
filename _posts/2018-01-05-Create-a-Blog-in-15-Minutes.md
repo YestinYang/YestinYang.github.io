@@ -16,9 +16,10 @@ lang: en
 建立并使用整个博客，我们需要完成下列几项：
 
 1.  一个GitHub账号
-2. 从Jekyll Themes中选择喜欢的样式，并复制到自己的GitHub中
+2.  从Jekyll Themes中选择喜欢的样式，并复制到自己的GitHub中
 3.  设置网站的基本信息
-4. 用StackEdit撰写博文
+4.  创建博文
+5. 用StackEdit撰写博文
 
 这里面提到了Markdown语言，后面会提供一些别人教程的链接。这是一种非常简单快捷的写作方式，推荐所有用电脑写文章的朋友用额外的10分钟学习，一定物超所值（从高效写作的角度完全超越Word）。
 
@@ -63,14 +64,14 @@ lang: en
 
 此外，你可以选择在`about.md`中写一些关于你自己的信息。[^2]
 
-##  4. 用StackEdit撰写博文
+##  4. 创建博文
 
-GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”两个字先别慌，其实一篇Markdown文档中99%都是你自己写的内容，1%是控制文章格式的符号。花10分钟阅读一下[简书上的教程](https://www.jianshu.com/p/q81RER)就可以上手🏆。
+按照下图创建博文文件，在`Name your file...`处填入`_posts/YYYY-MM-DD-Your-Document-Name.md`，比如我这篇文章`_posts/2018-01-05-Create-a-Blog-in-15-Minutes.md`。
 
-回到正题，StackEdit是一个免费的Markdown在线编辑器，其最重要的特性是可以与GitHub Repository中的文件进行双向同步。也就是说，我们可以在GitHub中建立我们的文档后，在StackEdit中进行文章的撰写。~~其实最吸引人的特性是可以spell check~~
+![Create1](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Create1.png)
+![Create2](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_Create2.png)
 
-按照下图创建博文文件，在文档开头设置下列文章的信息，最后按最下方绿色按钮保存。
-
+在文档开头设置下列文章的信息，最后按最下方绿色按钮保存。
 
 {% highlight Markdown %}
 ---
@@ -82,9 +83,26 @@ tags:
 ---
 {% endhighlight %}
 
+##  5. 用StackEdit撰写博文
+
+GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”两个字先别慌，其实一篇Markdown文档中99%都是你自己写的内容，1%是控制文章格式的符号。花10分钟阅读一下[简书上的教程](https://www.jianshu.com/p/q81RER)就可以上手🏆。
+
+回到正题，StackEdit是一个免费的Markdown在线编辑器，其最重要的特性是可以与GitHub Repository中的文件进行双向同步。也就是说，我们可以在GitHub中建立我们的文档后，在StackEdit中进行文章的撰写。~~其实最吸引人的特性是可以spell check~~
+
+打开[StackEdit](https://stackedit.io/app)主页面，点击右上角的#按钮，选择`Synchronize`--`Add GitHub account`，点`OK`授权StackEdit访问你的GitHub信息。
+
+![SE](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_SE1.png)
+
+接着回到StackEdit，选择`Open from GitHub`，接着填入下列信息。
+
+![SE](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_SE2.png)
+
+大功告成！现在你可以在StackEdit开始写博文了。文章会自动同步到GitHub中，直接展现在你的博客上。
+
+小贴士：StackEdit右上角的按钮里有`Markdown cheat sheet`可以随时查看Markdown的语法。
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NTg0ODg2XX0=
+eyJoaXN0b3J5IjpbMjY5NjE0NjMsNTc1NTg0ODg2XX0=
 -->

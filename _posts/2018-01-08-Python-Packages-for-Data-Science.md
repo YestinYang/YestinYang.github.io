@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python Packages for Data Science 
-key: 20180106
+key: 20180108
 tags:
   - info as list
 lang: en
@@ -14,4 +14,7 @@ This blog is created to record the Python packages of data science found in dail
 Test the syn function of StackEdit how to manage commit
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE4NjYzMDg5MzBdfQ==
+-->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjkwNjE3MDUzXX0=
 -->
