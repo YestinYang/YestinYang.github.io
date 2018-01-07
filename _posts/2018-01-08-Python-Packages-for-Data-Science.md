@@ -12,9 +12,7 @@ This blog is created to record the Python packages of data science found in dail
 ## Purpose
 
 Test the syn function of StackEdit how to manage commit
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjYzMDg5MzBdfQ==
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwNjE3MDUzXX0=
+eyJoaXN0b3J5IjpbNjk5NTU4NTY1XX0=
 -->
