@@ -61,7 +61,7 @@ disqus:
 gitalk:
    clientID:  b4bd7cea514ae9ee8270
    clientSecret:  4e8b82b3a4f360fc5e2b009ffdc071e9c304c4fe
-   repository:  Comments-of-Blog
+   repository:  yestinyang.github.io
    owner:  yestinyang
    admin:   
      - yestinyang
