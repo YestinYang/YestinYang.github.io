@@ -31,7 +31,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ## Features Selection
 
 **[sklearn-genetic](https://github.com/manuel-calzolari/sklearn-genetic)**
-- Using genetic algorithm (explanation on KD
+- Using genetic algorithm ([explanation on KD](https://www.kdnuggets.com/2017/11/rapidminer-evolutionary-algorithms-feature-selection.html))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzNDM3ODcyXX0=
+eyJoaXN0b3J5IjpbMjE0MzgxODcwNV19
 -->
