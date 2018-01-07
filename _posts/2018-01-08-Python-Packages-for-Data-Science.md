@@ -82,8 +82,6 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - Portable environment for your code
 - [How Docker Can Help You Become A More Effective Data Scientist](https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5)
 
-
-
 ## Commercial Tools
 
 **[KNIMI](https://www.knime.com/)**
@@ -94,5 +92,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkyMzIyMjddfQ==
+eyJoaXN0b3J5IjpbMzk2NTExMTY5XX0=
 -->
