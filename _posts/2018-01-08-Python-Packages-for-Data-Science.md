@@ -61,13 +61,11 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **Binder 2.0**
 - Interactive online Jupyter notebook ([Introduction](https://elifesciences.org/labs/8653a61d/introducing-binder-2-0-share-your-interactive-research-environment?utm_content=buffer44b80&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) / [Tech Guide](https://blog.jupyter.org/binder-2-0-a-tech-guide-2017-fd40515a3a84))
 
-## Commercial Tools
-
-
-
 ## Others
 
 
+
+## Commercial Tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxODAxNjA4XX0=
+eyJoaXN0b3J5IjpbMTk0OTA2MzQ2NF19
 -->
