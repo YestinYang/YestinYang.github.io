@@ -41,7 +41,8 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 Natural Language Processing Made Easy - using SpaCy (in Python)
 
-DeepSpeech -- Tensorflow implementation of Speech-to-Text synthesis from Baidu
+**DeepSpeech**
+- Tensorflow implementation of Speech-to-Text synthesis from Baidu
 
 ### Spatial Data
 
@@ -50,5 +51,5 @@ DeepSpeech -- Tensorflow implementation of Speech-to-Text synthesis from Baidu
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzMTcwMTkzXX0=
+eyJoaXN0b3J5IjpbLTg2NzgyMTAxMl19
 -->
