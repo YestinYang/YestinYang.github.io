@@ -43,7 +43,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[SpaCy](https://spacy.io/)**
 - Industrial-Strength Natural Language Processing
-- [Tutorial](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
+- [Natural Language Processing Made Easy – using SpaCy (​in Python)](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
 
 **[DeepSpeech](https://github.com/mozilla/DeepSpeech)**
 - Tensorflow implementation of Speech-to-Text synthesis from Baidu
@@ -51,7 +51,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ### Spatial Data
 
 **[Rasterio](https://mapbox.github.io/rasterio/)**
-- [Introduction](http://www.datacarpentry.org/blog/sare-favorite/)
+- [My Favorite Tool: Rasterio](http://www.datacarpentry.org/blog/sare-favorite/)
 
 ## Deployment
 
@@ -59,8 +59,9 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - [Tutorial to deploy Machine Learning model in Production as API with Flask](https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/)
 
 **Binder 2.0**
-- Interactive online Jupyter notebook ([Introduction](https://elifesciences.org/labs/8653a61d/introducing-binder-2-0-share-your-interactive-research-environment?utm_content=buffer44b80&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) / [Tech Guide](https://blog.jupyter.org/binder-2-0-a-tech-guide-2017-fd40515a3a84))
-- [Binder 2.0, a Tech Guide]()
+- Interactive online Jupyter notebook
+- [Introducing Binder 2.0 — share your interactive research environment](https://elifesciences.org/labs/8653a61d/introducing-binder-2-0-share-your-interactive-research-environment?utm_content=buffer44b80&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [Binder 2.0, a Tech Guide](https://blog.jupyter.org/binder-2-0-a-tech-guide-2017-fd40515a3a84)
 
 ## Mobile Machine Learning
 
@@ -93,5 +94,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk4OTQxODBdfQ==
+eyJoaXN0b3J5IjpbLTcwNzYwMDQxNl19
 -->
