@@ -58,10 +58,11 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **[Flask](http://flask.pocoo.org/)**
 - [Tutorial to deploy Machine Learning model in Production as API with Flask](https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/)
 
-**Binder 2.0 -- interactive online Jupyter notebook (introduction / tech guide)
+**Binder 2.0**
+- Interactive online Jupyter notebook (introduction / tech guide)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDAwNzA3XX0=
+eyJoaXN0b3J5IjpbNDc5OTk3MTU0XX0=
 -->
