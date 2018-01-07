@@ -32,6 +32,12 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[sklearn-genetic](https://github.com/manuel-calzolari/sklearn-genetic)**
 - Using genetic algorithm ([explanation on KD](https://www.kdnuggets.com/2017/11/rapidminer-evolutionary-algorithms-feature-selection.html))
+
+## Specific Data Types
+
+### Spatial Data
+
+**[Rasterio]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzgxODcwNV19
+eyJoaXN0b3J5IjpbLTEyOTY1NjIwMzFdfQ==
 -->
