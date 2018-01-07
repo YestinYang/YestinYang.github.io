@@ -67,11 +67,17 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - progression monitor
 - 76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
 
+
+
+## Commercial Tools
+
 **[KNIMI](https://www.knime.com/)**
 - GUI interface for data science, no coding required
 - [Building your first machine learning model using KNIME (no coding required!)](https://www.analyticsvidhya.com/blog/2017/08/knime-machine-learning/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29)
 
-## Commercial Tools
+**[Orange](https://orange.biolab.si/)**
+- GUI interface for data science, like Klarity ACE
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODcwMzIyMl19
+eyJoaXN0b3J5IjpbMTA5OTkxMDc4MF19
 -->
