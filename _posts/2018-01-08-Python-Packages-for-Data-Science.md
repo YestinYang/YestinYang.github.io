@@ -41,8 +41,8 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ### Nature Language Processing
 
-**SpaCy**
-- 
+**[SpaCy](https://spacy.io/)**
+- Industrial-Strength Natural Language Processing
 - [Tutorial](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
 
 **[DeepSpeech](https://github.com/mozilla/DeepSpeech)**
@@ -55,5 +55,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjcxNjk5NDBdfQ==
+eyJoaXN0b3J5IjpbMjA5MzQ5NDQyMF19
 -->
