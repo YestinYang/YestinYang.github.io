@@ -100,7 +100,11 @@ tags:
 - tag1  # 文章标签1
 - tag2  # 文章标签2
 ---
-{% endhighlight %}打开[StackEdit](https://stackedit.io/app)主页面，点击右上角的#按钮，选择`Synchronize`--`Add GitHub account`，点`OK`
+{% endhighlight %}打开[StackEdit](https://stackedit.io/app)主页面，点击右上角的#按钮，选择`Synchronize`--`Add GitHub account`，点`OK`授权StackEdit访问你的GitHub信息。
+
+
+
+接着回到StackEdit
 
 
 
@@ -108,5 +112,5 @@ tags:
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzUzOTU2Miw1NzU1ODQ4ODZdfQ==
+eyJoaXN0b3J5IjpbLTMyOTk0NzMyMiw1NzU1ODQ4ODZdfQ==
 -->
