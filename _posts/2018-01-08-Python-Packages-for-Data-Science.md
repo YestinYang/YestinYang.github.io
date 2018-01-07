@@ -14,11 +14,11 @@ This post is kept updating.
 ##  Visualization
 
 Altair -- declarative statistical visualization, just like JMP but in Python
-	- Documentation / Github
+- Documentation / Github
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDYyNzAzMzFdfQ==
+eyJoaXN0b3J5IjpbMTM1NTA3NTM1N119
 -->
