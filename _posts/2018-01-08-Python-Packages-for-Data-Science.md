@@ -24,8 +24,9 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ```
 ![altair](https://raw.githubusercontent.com/YestinYang/YestinYang.github.io/master/screenshots/2018-01-08_altair.png)
 
+**[Visdom](https://github.com/facebookresearch/visdom)**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQ5MDI2MTFdfQ==
+eyJoaXN0b3J5IjpbLTEzMzQ5NzU2NDhdfQ==
 -->
