@@ -37,11 +37,13 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ### Time Series Data
 
+Working Time Series Data in Python https://github.com/MaxBenChrist/awesome_time_series_in_python
+
 ### Nature Language Processing
 
 Natural Language Processing Made Easy - using SpaCy (in Python)
 
-**DeepSpeech**
+**[DeepSpeech](https://github.com/mozilla/DeepSpeech)**
 - Tensorflow implementation of Speech-to-Text synthesis from Baidu
 
 ### Spatial Data
@@ -51,5 +53,5 @@ Natural Language Processing Made Easy - using SpaCy (in Python)
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzgyMTAxMl19
+eyJoaXN0b3J5IjpbLTk3MDk4OTEzN119
 -->
