@@ -13,14 +13,14 @@ This post is kept updating.
 
 ##  Visualization
 
-**Altair**
-- declarative statistical visualization, just like JMP but in Python
+**[Altair](https://altair-viz.github.io/)**
+- Declarative statistical visualization, just like JMP but in Python
 - Example: 
-- [Documentation](https://altair-viz.github.io/) and [Github](https://github.com/altair-viz/altair)
-- 
-
-
+``` python
+ # only need to define x, y and legend
+alt.Chart(cars).mark_circle().encode(x='Horsepower', y='Miles_per_Gallon', color='Origin')
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjkyODM1OV19
+eyJoaXN0b3J5IjpbLTI2NjAzNzYwM119
 -->
