@@ -65,7 +65,9 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[TuriCreate](https://github.com/apple/turicreate)**
 - A Simplified Machine Learning Library for iOS
+- [How to build your first Machine Learning model on iPhone (Intro to Apple’s CoreML)](https://www.analyticsvidhya.com/blog/2017/09/build-machine-learning-iphone-apple-coreml/)
 
+**[Baidu Mobile ML](https://github.com/baidu/mobile-deep-learning)*
 
 ## Others
 
@@ -76,7 +78,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
 
-
+**Docker]()
 
 
 ## Commercial Tools
@@ -89,5 +91,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MzQ0NzBdfQ==
+eyJoaXN0b3J5IjpbLTIxMjEwNjI1OTJdfQ==
 -->
