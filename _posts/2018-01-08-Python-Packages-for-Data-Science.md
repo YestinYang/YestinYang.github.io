@@ -31,7 +31,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ## Features Selection
 
 **[sklearn-genetic](https://github.com/manuel-calzolari/sklearn-genetic)**
-- Using genetic algorithm
+- Using genetic algorithm (explanation on KD
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzMzYyOTM3XX0=
+eyJoaXN0b3J5IjpbMzkzNDM3ODcyXX0=
 -->
