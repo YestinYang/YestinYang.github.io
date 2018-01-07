@@ -61,7 +61,7 @@ disqus:
 gitalk:
    clientID:  b4bd7cea514ae9ee8270
    clientSecret:  4e8b82b3a4f360fc5e2b009ffdc071e9c304c4fe
-   repository:  YestinYang.github.io
+   repository:  YestinYang/YestinYang.github.io
    owner:  YestinYang
    admin:   #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
      - YestinYang
