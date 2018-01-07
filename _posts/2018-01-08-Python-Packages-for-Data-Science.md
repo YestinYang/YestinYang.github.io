@@ -37,7 +37,10 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ### Spatial Data
 
-**[Rasterio]()
+**[Rasterio](https://mapbox.github.io/rasterio/)**
+- [Introduction](http://www.datacarpentry.org/blog/sare-favorite/)
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY1NjIwMzFdfQ==
+eyJoaXN0b3J5IjpbLTE4Njg0OTc1MzhdfQ==
 -->
