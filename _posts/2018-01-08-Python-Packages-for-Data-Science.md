@@ -13,12 +13,13 @@ This post is kept updating.
 
 ##  Visualization
 
-Altair -- declarative statistical visualization, just like JMP but in Python
-- Documentation / Github
+**Altair** -- declarative statistical visualization, just like JMP but in Python
+- [Documentation](https://altair-viz.github.io/)
+- [Github]()
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTA3NTM1N119
+eyJoaXN0b3J5IjpbLTI3ODg1NjQxNV19
 -->
