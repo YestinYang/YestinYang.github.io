@@ -69,13 +69,13 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - A Simplified Machine Learning Library for iOS
 - [How to build your first Machine Learning model on iPhone (Intro to Apple’s CoreML)](https://www.analyticsvidhya.com/blog/2017/09/build-machine-learning-iphone-apple-coreml/)
 
-**[Baidu Mobile ML](https://github.com/baidu/mobile-deep-learning)*
+**[Baidu Mobile ML](https://github.com/baidu/mobile-deep-learning)**
 
 ## Others
 
 **[tqdm](https://pypi.python.org/pypi/tqdm)**
 - progression monitor
-- 76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
+76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
 
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
@@ -94,5 +94,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzYwMDQxNl19
+eyJoaXN0b3J5IjpbMTUzNjg4ODQ5M119
 -->
