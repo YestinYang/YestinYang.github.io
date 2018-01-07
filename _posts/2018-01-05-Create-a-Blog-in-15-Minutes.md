@@ -99,10 +99,10 @@ GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”
 
 大功告成！现在你可以在StackEdit开始写博文了。文章会自动同步到GitHub中，直接展现在你的博客上。
 
-小贴士：StackEdit右上角的按钮里有`Markdown cheat sheet`可以随时查看Markdown的表达方式噢！
+小贴士：StackEdit右上角的按钮里有`Markdown cheat sheet`可以随时查看Markdown的语法。
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MDMwODQ0LDU3NTU4NDg4Nl19
+eyJoaXN0b3J5IjpbMjY5NjE0NjMsNTc1NTg0ODg2XX0=
 -->
