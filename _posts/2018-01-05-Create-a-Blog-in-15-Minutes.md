@@ -11,7 +11,7 @@ lang: en
 
 ##  基本思路和准备条件
 
-利用GitHub Pages项目博客生成系统，在GitHub Repository中建立必要的网站文件结构，最终通过StackEdit以Markdown语言撰写博文。
+利用GitHub Pages项目免费的博客生成系统，在GitHub Repository中建立必要的网站文件结构，最终通过StackEdit以Markdown语言撰写博文。
 
 建立并使用整个博客，我们需要完成下列几项：
 
@@ -105,5 +105,5 @@ GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODk4NDAyLDU3NTU4NDg4Nl19
+eyJoaXN0b3J5IjpbLTU4OTYwODgxOCw1NzU1ODQ4ODZdfQ==
 -->
