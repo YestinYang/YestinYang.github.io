@@ -9,12 +9,12 @@ lang: en
 
 This blog is created to record the Python packages of data science found in daily practice or reading, covering the whole process of machine learning from visualization and pre-processing to model training and deployment.
 
-And this post will keep updating.
+This post is kept updating.
 
 ## Purpose
 
-Test the syn function of StackEdit how to manage commit
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTIxNzk4NjddfQ==
+eyJoaXN0b3J5IjpbLTE1OTgyMzMyNDhdfQ==
 -->
