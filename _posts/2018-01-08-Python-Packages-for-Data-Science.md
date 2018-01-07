@@ -56,12 +56,12 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ## Deployment
 
 **Flask**
-- Tutorial to deploy Machine Learning model in Production as API with Flask
+- [Tutorial to deploy Machine Learning model in Production as API with Flask](https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/)
 Approaching (Almost) Any Machine Learning Problem | Abhishek Thakur
 Binder 2.0 -- interactive online Jupyter notebook (introduction / tech guide)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MDg3MDE3XX0=
+eyJoaXN0b3J5IjpbLTkwNzE1Mzg1M119
 -->
