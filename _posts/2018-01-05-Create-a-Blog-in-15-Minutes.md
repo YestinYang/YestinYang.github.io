@@ -89,18 +89,7 @@ GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”
 
 回到正题，StackEdit是一个免费的Markdown在线编辑器，其最重要的特性是可以与GitHub Repository中的文件进行双向同步。也就是说，我们可以在GitHub中建立我们的文档后，在StackEdit中进行文章的撰写。~~其实最吸引人的特性是可以spell check~~
 
-按照下图创建博文文件，在文档开头设置下列文章的信息，最后按最下方绿色按钮保存。
-
-
-{% highlight Markdown %}
----
-layout: post  # 文章样式，不建议修改
-title: Markdown Example - Definition  # 文章的标题
-tags: 
-- tag1  # 文章标签1
-- tag2  # 文章标签2
----
-{% endhighlight %}打开[StackEdit](https://stackedit.io/app)主页面，点击右上角的#按钮，选择`Synchronize`--`Add GitHub account`，点`OK`授权StackEdit访问你的GitHub信息。
+打开[StackEdit](https://stackedit.io/app)主页面，点击右上角的#按钮，选择`Synchronize`--`Add GitHub account`，点`OK`授权StackEdit访问你的GitHub信息。
 
 ![SE](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_SE1.png)
 
@@ -108,11 +97,11 @@ tags:
 
 ![SE](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_SE2.png)
 
-
+大功告成！现在你可以在StackEdit开始写博文了。
 
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTIyMDE5MSw1NzU1ODQ4ODZdfQ==
+eyJoaXN0b3J5IjpbNDkzNzQyMTE1LDU3NTU4NDg4Nl19
 -->
