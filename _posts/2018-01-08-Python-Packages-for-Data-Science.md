@@ -11,9 +11,13 @@ This blog is created to record the Python packages of data science found in dail
 
 This post is kept updating.
 
-##  
+##  Visualization
+
+Altair (declarative statistical visualization, just like JMP but in Python) Documentation / Github
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUwMjU0NTZdfQ==
+eyJoaXN0b3J5IjpbMjMxNTc2NzA3XX0=
 -->
