@@ -9,12 +9,14 @@ lang: en
 
 This blog is created to record the Python packages of data science found in daily practice or reading, covering the whole process of machine learning from visualization and pre-processing to model training and deployment.
 
-This post is kept updating.
+This post is kept updating. And sections are 
+
+
 
 ## Purpose
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTgyMzMyNDhdfQ==
+eyJoaXN0b3J5IjpbLTE5ODExMTU3MzddfQ==
 -->
