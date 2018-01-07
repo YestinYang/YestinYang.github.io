@@ -22,8 +22,10 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 									 y='Miles_per_Gallon',
 									 color='Origin')
 ```
+![altair](https://raw.githubusercontent.com/YestinYang/YestinYang.github.io/master/screenshots/2018-01-08_altair.png)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDI2NTE4M119
+eyJoaXN0b3J5IjpbLTEyNzQ5MDI2MTFdfQ==
 -->
