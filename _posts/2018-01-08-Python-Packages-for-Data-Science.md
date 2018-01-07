@@ -37,7 +37,11 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ### Time Series Data
 
+### Nature Language Processing
 
+Natural Language Processing Made Easy - using SpaCy (in Python)
+
+DeepSpeech -- Tensorflow implementation of Speech-to-Text synthesis from Baidu
 
 ### Spatial Data
 
@@ -46,5 +50,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA2NzcyODddfQ==
+eyJoaXN0b3J5IjpbOTQzMTcwMTkzXX0=
 -->
