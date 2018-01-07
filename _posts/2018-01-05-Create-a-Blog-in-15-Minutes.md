@@ -97,11 +97,12 @@ GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”
 
 ![SE](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-05_SE2.png)
 
-大功告成！现在你可以在StackEdit开始写博文了。
+大功告成！现在你可以在StackEdit开始写博文了。文章会自动同步到GitHub中，直接展现在你的博客上。
+
 
 
 [^1]: 每个博客样板间有细微的差别，但基本都是通过对根目录下的`_config.yml`文件进行修改来完成设置。关于设置的说明可以在每个样板的GitHub Repository（第二步中点`Homepage`）的README.md中找到。
 [^2]: `about.md`需使用Markdown语言编写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzNzQyMTE1LDU3NTU4NDg4Nl19
+eyJoaXN0b3J5IjpbMzQ1NjAwOTAzLDU3NTU4NDg4Nl19
 -->
