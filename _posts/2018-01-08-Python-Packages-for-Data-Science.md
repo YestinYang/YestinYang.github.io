@@ -41,7 +41,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ### Nature Language Processing
 
-SpaCy (in Python)
+**SpaCy**
 - 
 - [Tutorial](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
 
@@ -55,5 +55,5 @@ SpaCy (in Python)
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDExODEwNl19
+eyJoaXN0b3J5IjpbLTE5MjcxNjk5NDBdfQ==
 -->
