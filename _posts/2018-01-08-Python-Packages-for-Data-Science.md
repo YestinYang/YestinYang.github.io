@@ -78,7 +78,10 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
 
-**[Docker]()
+**[Docker](https://www.docker.com/)**
+- Portable environment for your code
+- [
+
 
 
 ## Commercial Tools
@@ -91,5 +94,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0ODc5ODE3XX0=
+eyJoaXN0b3J5IjpbMTUzNzk1MDI5MV19
 -->
