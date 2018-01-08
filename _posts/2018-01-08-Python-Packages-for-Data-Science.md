@@ -14,7 +14,8 @@ This post is kept updating.
 ## Visualization
 
 **[Scikit-plot](http://scikit-plot.readthedocs.io/en/stable/index.html)**
-- Integrated plot 
+- The quickest and easiest way to plot machine learning result, built upon scikit-learn and matlibplot
+- 
 
 **[Altair](https://altair-viz.github.io/)**
 - Declarative statistical visualization, just like JMP but in Python
@@ -121,5 +122,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzI3NjMxNl19
+eyJoaXN0b3J5IjpbLTI4Mjc3OTU2OF19
 -->
