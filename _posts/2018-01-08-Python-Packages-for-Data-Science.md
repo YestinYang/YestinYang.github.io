@@ -15,10 +15,10 @@ This post is kept updating.
 
 **[Scikit-plot](http://scikit-plot.readthedocs.io/en/stable/index.html)**
 - The quickest and easiest way to plot machine learning result, built upon scikit-learn and matplotlib
-- Metrics Module -- evaluation metrics, e.g. confusion matrix, ROC, etc.
-- Estimators Module -- learning curve and features importance
-- Clusterer Module -- elbow plot
-- Decomposition Module -- PCA 2D projection and PCA component explained variances
+- **Metrics Module** -- evaluation metrics, e.g. confusion matrix, ROC, etc.
+- **Estimators Module** -- learning curve and features importance
+- **Clusterer Module** -- elbow plot
+- **Decomposition Module** -- PCA 2D projection and PCA component explained variances
 
 **[Altair](https://altair-viz.github.io/)**
 - Declarative statistical visualization, just like JMP but in Python
@@ -125,5 +125,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTM1MDY2MV19
+eyJoaXN0b3J5IjpbLTE3ODAyNjUyMTFdfQ==
 -->
