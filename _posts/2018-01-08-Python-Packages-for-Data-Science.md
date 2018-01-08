@@ -53,6 +53,10 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **[Rasterio](https://mapbox.github.io/rasterio/)**
 - [My Favorite Tool: Rasterio](http://www.datacarpentry.org/blog/sare-favorite/)
 
+## Model Related
+
+hyperopt-sklearn
+
 ## Deployment
 
 **[Flask](http://flask.pocoo.org/)**
@@ -94,5 +98,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjg4ODQ5M119
+eyJoaXN0b3J5IjpbLTEzNjU5OTI1NjVdfQ==
 -->
