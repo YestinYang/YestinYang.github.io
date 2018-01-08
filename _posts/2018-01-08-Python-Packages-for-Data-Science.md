@@ -62,9 +62,12 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **[Rasterio](https://mapbox.github.io/rasterio/)**
 - [My Favorite Tool: Rasterio](http://www.datacarpentry.org/blog/sare-favorite/)
 
-## Model Related
+## Model and Hyperparameters
 
-**[hyperopt-sklearn](http://hyperopt.github.io/hyperopt-sklearn/)**
+**[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
+- 
+
+**[hyperopt-sklearn](http://hyperopt.github.io/hyperopt-sklearn/)** (choose above one first)
 - Better search algorithm for searching the best **classifer** in scikit-learn, such as TPE / Tree / Gaussian Process Tree
 
 ## Deployment
@@ -108,5 +111,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDk1MzA0ODJdfQ==
+eyJoaXN0b3J5IjpbNjk3OTAyOTA0XX0=
 -->
