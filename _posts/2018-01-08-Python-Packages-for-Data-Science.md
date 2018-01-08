@@ -17,7 +17,7 @@ This post is kept updating.
 - The quickest and easiest way to plot machine learning result, built upon scikit-learn and matplotlib
 - Metrics Module -- evaluation metrics, e.g. confusion matrix, ROC, etc.
 - Estimators Module -- learning curve and features importance
-- Clusterer Module -- 
+- Clusterer Module -- Elbow plot
 - Decomposition Module -- 
 
 **[Altair](https://altair-viz.github.io/)**
@@ -125,5 +125,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDY2MTM1NDZdfQ==
+eyJoaXN0b3J5IjpbLTUxMTA4MjA0XX0=
 -->
