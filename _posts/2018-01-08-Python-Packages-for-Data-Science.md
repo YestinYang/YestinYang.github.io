@@ -55,7 +55,8 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ## Model Related
 
-hyperopt-sklearn
+**[hyperopt-sklearn](http://hyperopt.github.io/hyperopt-sklearn/)**
+- 
 
 ## Deployment
 
@@ -98,5 +99,5 @@ hyperopt-sklearn
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU5OTI1NjVdfQ==
+eyJoaXN0b3J5IjpbLTIwNjE0OTY2NjFdfQ==
 -->
