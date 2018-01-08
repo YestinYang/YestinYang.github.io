@@ -44,7 +44,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 	- Replaces missing values with the mode (for categorical variables) or median (for continuous variables) on a column-by-column basis
 	- Encodes non-numerical variables (e.g., categorical variables with strings) with numerical equivalents
 
-## Features Selection
+## Feature Selection
 
 **[Facets](https://pair-code.github.io/facets/)**
 - A visualization tool for descriptive statistical information of features, and relationship between any pair of features
@@ -129,5 +129,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTU3Njc3MV19
+eyJoaXN0b3J5IjpbLTk0MzM4OTc3Ml19
 -->
