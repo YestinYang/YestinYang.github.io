@@ -65,10 +65,12 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ## Model and Hyperparameters
 
 **[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
-- 
+- auto-sklearn is an automated machine learning toolkit and a drop-in replacement for a scikit-learn estimator:
 
-**[hyperopt-sklearn](http://hyperopt.github.io/hyperopt-sklearn/)** (choose above one first)
-- Better search algorithm for searching the best **classifer** in scikit-learn, such as TPE / Tree / Gaussian Process Tree
+>>> import autosklearn.classification
+
+(replaced by above one) ~~**[hyperopt-sklearn](http://hyperopt.github.io/hyperopt-sklearn/)**~~
+- ~~Better search algorithm for searching the best **classifer** in scikit-learn, such as TPE / Tree / Gaussian Process Tree~~
 
 ## Deployment
 
@@ -111,5 +113,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3OTAyOTA0XX0=
+eyJoaXN0b3J5IjpbNDE2NDg2ODgzXX0=
 -->
