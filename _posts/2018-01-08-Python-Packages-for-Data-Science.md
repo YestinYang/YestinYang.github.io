@@ -17,7 +17,8 @@ This post is kept updating.
 - The quickest and easiest way to plot machine learning result, built upon scikit-learn and matplotlib
 - Metrics Module
 - Estimators Module
-- 
+- Clusterer Module
+- Decomposition Module
 
 **[Altair](https://altair-viz.github.io/)**
 - Declarative statistical visualization, just like JMP but in Python
@@ -124,5 +125,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY2MjExNjJdfQ==
+eyJoaXN0b3J5IjpbMzY0NDc5OTcxXX0=
 -->
