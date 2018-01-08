@@ -13,6 +13,9 @@ This post is kept updating.
 
 ## Visualization
 
+**[Scikit-plot](http://scikit-plot.readthedocs.io/en/stable/index.html)**
+- Integrated plot 
+
 **[Altair](https://altair-viz.github.io/)**
 - Declarative statistical visualization, just like JMP but in Python
 - Example: 
@@ -118,5 +121,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE2NDk5NjRdfQ==
+eyJoaXN0b3J5IjpbLTI1NzI3NjMxNl19
 -->
