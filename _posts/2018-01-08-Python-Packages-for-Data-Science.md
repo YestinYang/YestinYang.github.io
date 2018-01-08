@@ -28,6 +28,10 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - alive data visualization dashboard
 ![Visdom](https://camo.githubusercontent.com/2b1b3f8ceb9b9379d59183352f1ca3f2e6bbf064/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d6833487576625532563053666771675847694b334c50676845357671765330707a704f6253305967475f4c41424d466b36324a4361334b56755f324e565f344c4a4b614161352d74673d7330)
 
+## Data Cleansing
+
+**[datacleaner](https://github.com/rhiever/datacleaner)**
+
 ## Features Selection
 
 **[sklearn-genetic](https://github.com/manuel-calzolari/sklearn-genetic)**
@@ -99,5 +103,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTA1MjUxMV19
+eyJoaXN0b3J5IjpbLTE0ODQ1NTk0MzJdfQ==
 -->
