@@ -66,7 +66,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
 - An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
-- Supporting class
+- Supporting classifer / regressor / 
 ```python
 import autosklearn.classification
 cls = autosklearn.classification.AutoSklearnClassifier()  ## search the best one among all classifier
@@ -118,5 +118,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTE3NjkyMl19
+eyJoaXN0b3J5IjpbMjE0MzI5ODcxNl19
 -->
