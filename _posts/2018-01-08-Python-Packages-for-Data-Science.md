@@ -14,7 +14,9 @@ This post is kept updating.
 ## Visualization
 
 **[Scikit-plot](http://scikit-plot.readthedocs.io/en/stable/index.html)**
-- The quickest and easiest way to plot machine learning result, built upon scikit-learn and matlibplot
+- The quickest and easiest way to plot machine learning result, built upon scikit-learn and matplotlib
+- Metrics Module
+- Estimators Module
 - 
 
 **[Altair](https://altair-viz.github.io/)**
@@ -122,5 +124,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Mjc3OTU2OF19
+eyJoaXN0b3J5IjpbLTEyMzY2MjExNjJdfQ==
 -->
