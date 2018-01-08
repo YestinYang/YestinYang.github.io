@@ -65,7 +65,10 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ## Model and Hyperparameters
 
 **[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
-- auto-sklearn is an automated machine learning toolkit and a drop-in replacement for a scikit-learn estimator
+- An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
+```python
+
+```
 
 >>> import autosklearn.classification
 
@@ -113,5 +116,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjUwODg4NV19
+eyJoaXN0b3J5IjpbMTM5MDAxMjUyOV19
 -->
