@@ -18,7 +18,7 @@ This post is kept updating.
 - Metrics Module -- evaluation metrics, e.g. confusion matrix, ROC, etc.
 - Estimators Module -- learning curve and features importance
 - Clusterer Module -- Elbow plot
-- Decomposition Module -- 
+- Decomposition Module -- PCA 2D projection and PCA component explained Variances
 
 **[Altair](https://altair-viz.github.io/)**
 - Declarative statistical visualization, just like JMP but in Python
@@ -125,5 +125,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTA4MjA0XX0=
+eyJoaXN0b3J5IjpbMTI4MDAxODI0NV19
 -->
