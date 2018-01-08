@@ -56,7 +56,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ## Model Related
 
 **[hyperopt-sklearn](http://hyperopt.github.io/hyperopt-sklearn/)**
-- 
+- Better search algorithm for searching the best model in scikit-learn, such as 
 
 ## Deployment
 
@@ -99,5 +99,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE0OTY2NjFdfQ==
+eyJoaXN0b3J5IjpbLTEyMjgyMzA3ODNdfQ==
 -->
