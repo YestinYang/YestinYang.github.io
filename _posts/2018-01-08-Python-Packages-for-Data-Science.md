@@ -31,7 +31,11 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ## Data Cleansing
 
 **[datacleaner](https://github.com/rhiever/datacleaner)**
-- 
+- Work with Pandas DataFrame
+- Automatically complete the basic cleansing as below
+	- Optionally drops any row with a missing value
+	- Replaces missing values with the mode (for categorical variables) or median (for continuous variables) on a column-by-column basis
+	- Encodes non-numerical variables (e.g., categorical variables with strings) with numerical equivalents
 
 ## Features Selection
 
@@ -104,5 +108,5 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI5OTY4NzddfQ==
+eyJoaXN0b3J5IjpbLTExMDk1MzA0ODJdfQ==
 -->
