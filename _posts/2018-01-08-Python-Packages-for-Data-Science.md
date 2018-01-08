@@ -47,7 +47,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 ## Features Selection
 
 **[Facets](https://pair-code.github.io/facets/)**
-- 
+- A visualial
 
 **[sklearn-genetic](https://github.com/manuel-calzolari/sklearn-genetic)**
 - Using genetic algorithm ([explanation on KD](https://www.kdnuggets.com/2017/11/rapidminer-evolutionary-algorithms-feature-selection.html))
@@ -128,5 +128,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjEwNTU2OV19
+eyJoaXN0b3J5IjpbLTIwNTk3MTYwMzJdfQ==
 -->
