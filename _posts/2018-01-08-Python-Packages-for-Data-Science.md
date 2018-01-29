@@ -73,7 +73,7 @@ predictions = cls.predict(X_test)
 ### Image Recognition
 
 [Detectron from Facebook](https://github.com/facebookresearch/Detectron)
-- Pre-trained object detection
+- Pre-trained object detection with object masking, instead of object bounding
 
 ### Time Series Data
 
@@ -131,5 +131,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQzMTQxMTldfQ==
+eyJoaXN0b3J5IjpbMTAxMzY2ODUzNF19
 -->
