@@ -73,21 +73,6 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **[Rasterio](https://mapbox.github.io/rasterio/)**
 - [My Favorite Tool: Rasterio](http://www.datacarpentry.org/blog/sare-favorite/)
 
-## Model and Hyperparameters
-
-**[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
-- An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
-- Supporting classifers / regressors / preprocessers
-```python
-import autosklearn.classification
-cls = autosklearn.classification.AutoSklearnClassifier()  ## search the best one among all classifier
-cls.fit(X_train, y_train)
-predictions = cls.predict(X_test)
-```
-
-(replaced by above one) ~~**[hyperopt-sklearn](http://hyperopt.github.io/hyperopt-sklearn/)**~~
-- ~~Better search algorithm for searching the best **classifer** in scikit-learn, such as TPE / Tree / Gaussian Process Tree~~
-
 ## Deployment
 
 **[Flask](http://flask.pocoo.org/)**
@@ -111,6 +96,16 @@ predictions = cls.predict(X_test)
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
 
+**[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
+- An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
+- Supporting classifers / regressors / preprocessers
+```python
+import autosklearn.classification
+cls = autosklearn.classification.AutoSklearnClassifier()  ## search the best one among all classifier
+cls.fit(X_train, y_train)
+predictions = cls.predict(X_test)
+```
+
 ## Others
 
 **[tqdm](https://pypi.python.org/pypi/tqdm)**
@@ -131,5 +126,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjM5NDM2Nl19
+eyJoaXN0b3J5IjpbMjAzNjgxMDU4NV19
 -->
