@@ -70,7 +70,10 @@ predictions = cls.predict(X_test)
 
 ## Specific Data Types
 
-### 
+### Image Recognition
+
+[Detectron from Facebook](https://github.com/facebookresearch/Detectron)
+- Object detection 
 
 ### Time Series Data
 
@@ -128,5 +131,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTg5ODE4Nl19
+eyJoaXN0b3J5IjpbMTczNjAxNjQzNF19
 -->
