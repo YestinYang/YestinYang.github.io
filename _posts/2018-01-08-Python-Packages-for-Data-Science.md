@@ -53,7 +53,24 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **[sklearn-genetic](https://github.com/manuel-calzolari/sklearn-genetic)**
 - Using genetic algorithm ([explanation on KD](https://www.kdnuggets.com/2017/11/rapidminer-evolutionary-algorithms-feature-selection.html))
 
+## Auto Machine Learning
+
+**[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
+- [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
+
+**[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
+- An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
+- Supporting classifers / regressors / preprocessers
+```python
+import autosklearn.classification
+cls = autosklearn.classification.AutoSklearnClassifier()  ## search the best one among all classifier
+cls.fit(X_train, y_train)
+predictions = cls.predict(X_test)
+```
+
 ## Specific Data Types
+
+### 
 
 ### Time Series Data
 
@@ -91,21 +108,6 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[Baidu Mobile ML](https://github.com/baidu/mobile-deep-learning)**
 
-## Auto Machine Learning
-
-**[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
-- [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
-
-**[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
-- An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
-- Supporting classifers / regressors / preprocessers
-```python
-import autosklearn.classification
-cls = autosklearn.classification.AutoSklearnClassifier()  ## search the best one among all classifier
-cls.fit(X_train, y_train)
-predictions = cls.predict(X_test)
-```
-
 ## Others
 
 **[tqdm](https://pypi.python.org/pypi/tqdm)**
@@ -126,5 +128,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjgxMDU4NV19
+eyJoaXN0b3J5IjpbMTc1OTg5ODE4Nl19
 -->
