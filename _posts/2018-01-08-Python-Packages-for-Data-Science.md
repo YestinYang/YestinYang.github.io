@@ -106,14 +106,16 @@ predictions = cls.predict(X_test)
 
 **[Baidu Mobile ML](https://github.com/baidu/mobile-deep-learning)**
 
+## Auto Machine Learning
+
+**[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
+- [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
+
 ## Others
 
 **[tqdm](https://pypi.python.org/pypi/tqdm)**
 - progression monitor
 76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
-
-**[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
-- [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
 
 **[Docker](https://www.docker.com/)**
 - Portable environment for your code
@@ -129,5 +131,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzM4OTc3Ml19
+eyJoaXN0b3J5IjpbLTkzNjM5NDM2Nl19
 -->
