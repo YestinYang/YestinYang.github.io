@@ -64,7 +64,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[TPOT](https://github.com/EpistasisLab/tpot)**
 - Search for the best pipeline of machine learning by genetic programming
-- ![TPOT](https://github.com/EpistasisLab/tpot/blob/master/images/tpot-ml-pipeline.png)
+![-](https://github.com/EpistasisLab/tpot/blob/master/images/tpot-ml-pipeline.png) 
 
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
@@ -142,5 +142,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTc1MDc0XX0=
+eyJoaXN0b3J5IjpbLTE3OTU3NjA5NjddfQ==
 -->
