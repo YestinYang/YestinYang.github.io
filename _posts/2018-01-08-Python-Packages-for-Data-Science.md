@@ -63,7 +63,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - [Notebooks on how to use Distributed Evolutionary Algorithm in Python](https://github.com/DEAP/notebooks)
 
 **[TPOT](https://github.com/EpistasisLab/tpot)**
-- ![enter image description here](https://github.com/EpistasisLab/tpot/blob/master/images/tpot-ml-pipeline.png)
+- ![TPOT](https://github.com/EpistasisLab/tpot/blob/master/images/tpot-ml-pipeline.png)
 
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
@@ -141,5 +141,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2NzM0OTQyXX0=
+eyJoaXN0b3J5IjpbLTc1NzUzOTEzOF19
 -->
