@@ -55,6 +55,8 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ## Auto Machine Learning
 
+> http://www.ml4aad.org/
+
 **[DEAP](https://github.com/DEAP/deap)**
 - Genetic Algorithm / Evolutionary computation framework
 - [Using Genetic Algorithm for Optimizing Recurrent Neural Networks](https://www.kdnuggets.com/2018/01/genetic-algorithm-optimizing-recurrent-neural-network.html)
@@ -136,5 +138,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODAyMzk0NF19
+eyJoaXN0b3J5IjpbMjExMTQyNDAxNV19
 -->
