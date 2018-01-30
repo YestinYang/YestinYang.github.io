@@ -58,9 +58,12 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 > Leading research group on autoML [Machine Learning for Automated Algorithm Design](http://www.ml4aad.org/)
 
 **[DEAP](https://github.com/DEAP/deap)**
-- Genetic Algorithm / Evolutionary computation framework
+- Genetic Algorithm / Evolutionary Computation Framework
 - [Using Genetic Algorithm for Optimizing Recurrent Neural Networks](https://www.kdnuggets.com/2018/01/genetic-algorithm-optimizing-recurrent-neural-network.html)
 - [Notebooks on how to use Distributed Evolutionary Algorithm in Python](https://github.com/DEAP/notebooks)
+
+**[TPOT](https://github.com/EpistasisLab/tpot)**
+- 
 
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
@@ -138,5 +141,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTI1MzE0Ml19
+eyJoaXN0b3J5IjpbLTE2NjU0ODgxMDldfQ==
 -->
