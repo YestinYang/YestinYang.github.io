@@ -55,7 +55,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 ## Auto Machine Learning
 
-> http://www.ml4aad.org/
+> Leading research group on autoML [Machine Learning for Automated Algorithm Design](http://www.ml4aad.org/)
 
 **[DEAP](https://github.com/DEAP/deap)**
 - Genetic Algorithm / Evolutionary computation framework
@@ -138,5 +138,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTQyNDAxNV19
+eyJoaXN0b3J5IjpbLTcxOTI1MzE0Ml19
 -->
