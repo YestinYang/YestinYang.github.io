@@ -57,8 +57,8 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[DEAP](https://github.com/DEAP/deap)**
 - Genetic Algorithm / Evolutionary computation framework
-- Using Genetic Algorithm for Optimizing Recurrent Neural Networks
-- 
+- [Using Genetic Algorithm for Optimizing Recurrent Neural Networks](https://www.kdnuggets.com/2018/01/genetic-algorithm-optimizing-recurrent-neural-network.html)
+- [Notebooks on how to use Distributed Evolutionary Algorithm in Python](https://github.com/DEAP/notebooks)
 
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
@@ -136,5 +136,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjM0MTMzNV19
+eyJoaXN0b3J5IjpbMTIxODAyMzk0NF19
 -->
