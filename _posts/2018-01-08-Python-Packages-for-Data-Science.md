@@ -100,6 +100,9 @@ predictions = cls.predict(X_test)
 **[DeepSpeech](https://github.com/mozilla/DeepSpeech)**
 - Tensorflow implementation of Speech-to-Text synthesis from Baidu
 
+**[TextBlob](http://textblob.readthedocs.io/en/dev/)**
+- 
+
 ### Audio Data
 
 **[Pydub](https://github.com/jiaaro/pydub)**
@@ -153,5 +156,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjYxNTI4N119
+eyJoaXN0b3J5IjpbMjk2ODYyODI2XX0=
 -->
