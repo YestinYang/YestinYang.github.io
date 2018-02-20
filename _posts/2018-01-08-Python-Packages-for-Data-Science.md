@@ -79,6 +79,11 @@ cls.fit(X_train, y_train)
 predictions = cls.predict(X_test)
 ```
 
+## Probabilistic Machine Learning
+
+**[PyMC3](https://github.com/pymc-devs/pymc3)**
+- 
+
 ## Specific Data Types
 
 ### Image Recognition
@@ -157,5 +162,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDk0MjAzN119
+eyJoaXN0b3J5IjpbNDUzMDczMTE4XX0=
 -->
