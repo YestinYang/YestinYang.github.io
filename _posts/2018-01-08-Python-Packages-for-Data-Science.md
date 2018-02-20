@@ -102,6 +102,9 @@ predictions = cls.predict(X_test)
 
 ### Audio Data
 
+**[Pydub](https://github.com/jiaaro/pydub)**
+- Audio engineering, used to in Deep Learning Specialization Course 5 Week 3 assignment
+
 **[JazzML](https://github.com/evancchow/jazzml)**
 - Computational Jazz Improvisation
 - Found in Deep Learning Specialization Course 5 Week 1 assignment
@@ -149,5 +152,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzAyMTk4MTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNTc2MDAwOThdfQ==
 -->
