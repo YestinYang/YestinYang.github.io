@@ -83,7 +83,7 @@ predictions = cls.predict(X_test)
 
 **[PyMC3](https://github.com/pymc-devs/pymc3)**
 - Bayesian statistical modeling and Probabilistic Machine Learning which focuses on advanced Markov chain Monte Carlo and variational fitting algorithms.
-- GitHub Readme includes tutorial for learning Bayesian statistics using PyMC
+- GitHub Readme includes tutorial for learning Bayesian statistics using PyMC3
 
 ## Specific Data Types
 
@@ -163,5 +163,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0Mjc1NjY0XX0=
+eyJoaXN0b3J5IjpbMjA2MTI2NzEyN119
 -->
