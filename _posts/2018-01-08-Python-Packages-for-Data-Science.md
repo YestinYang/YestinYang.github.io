@@ -103,7 +103,7 @@ predictions = cls.predict(X_test)
 ### Audio Data
 
 **[Pydub](https://github.com/jiaaro/pydub)**
-- Audio engineering, sucha as synthesising audio training dataset by combining background noise and target sound
+- Audio engineering, such as synthesising audio training dataset by combining background noise and target sound
 - Found in Deep Learning Specialization Course 5 Week 3 assignment
 
 **[JazzML](https://github.com/evancchow/jazzml)**
@@ -153,5 +153,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5MzE2NDQzXX0=
+eyJoaXN0b3J5IjpbLTQyOTM3Mjc4XX0=
 -->
