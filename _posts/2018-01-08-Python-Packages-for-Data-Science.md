@@ -101,7 +101,8 @@ predictions = cls.predict(X_test)
 - Tensorflow implementation of Speech-to-Text synthesis from Baidu
 
 **[TextBlob](http://textblob.readthedocs.io/en/dev/)**
-- 
+- For common NLP tasks
+- [Natural Language Processing for Beginners: Using TextBlob](https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed:%20AnalyticsVidhya%20%28Analytics%20Vidhya%29)
 
 ### Audio Data
 
@@ -156,5 +157,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2ODYyODI2XX0=
+eyJoaXN0b3J5IjpbMTg0MDk0MjAzN119
 -->
