@@ -104,6 +104,7 @@ predictions = cls.predict(X_test)
 
 **[JazzML](https://github.com/evancchow/jazzml)**
 - Computational Jazz Improvisation
+- Found in Deep Learning Specialization Course 5 Week 1 assignment
 
 ### Spatial Data
 
@@ -148,5 +149,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzQwNDExN119
+eyJoaXN0b3J5IjpbLTExNzAyMTk4MTJdfQ==
 -->
