@@ -100,6 +100,11 @@ predictions = cls.predict(X_test)
 **[DeepSpeech](https://github.com/mozilla/DeepSpeech)**
 - Tensorflow implementation of Speech-to-Text synthesis from Baidu
 
+### Audio Data
+
+**[JazzML](https://github.com/evancchow/jazzml)**
+- Computational Jazz Improvisation
+
 ### Spatial Data
 
 **[Rasterio](https://mapbox.github.io/rasterio/)**
@@ -143,5 +148,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzYwNjYwXX0=
+eyJoaXN0b3J5IjpbMTk5NzQwNDExN119
 -->
