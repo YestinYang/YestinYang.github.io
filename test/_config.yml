@@ -15,6 +15,7 @@ theme: jekyll-text-theme
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
 
+text_color_theme: default #eg: default | dark | forest | ocean | chocolate | orange
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
@@ -80,9 +81,12 @@ leancloud:
   # app_class:  #LeanCloud App class
 
 # mathjax: true
+# mathjax_autoNumber: true
+# mermaid: true
+# chart: true
 
 ## Paginate ##
-paginate: 5
+paginate: 7
 paginate_path: /blog/page:num
 
 ## Post excerpts ##
@@ -121,6 +125,3 @@ gems:
 
 ## Server ##
 server_url: "0.0.0.0"
-
-## Development ##
-isdebug: false
