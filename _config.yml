@@ -15,9 +15,9 @@ text_color_theme: default #eg: default | dark | forest | ocean | chocolate | ora
 ## Base settings ##
 # url:  #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
-title: Someone's blog
+title: Yuet's Blog
 description: > #this means to ignore newlines until "nav_lists:"
-  Someone's Blog
+  浅水喧闹 深潭无波
 
 nav_lists:
   - titles:
@@ -43,15 +43,15 @@ timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 
 ## Author & social ##
 author:
-  name: Someone
-  # email:  #your Email address e.g. someone@site.com
+  name: Yeung Yuet
+  email:  yestin.yang_yue@outlook.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
-  # github:  #your GitHub username
+  github:  YestinYang
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
   # douban:  #your Douban username
-  # linkedin:  #your Linkedin username
+  linkedin:  yestin-yang-yue
 
 ## TOC
 toc:
@@ -64,12 +64,12 @@ disqus:
 ## Comment system (gitalk) ##
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  # clientID:  #Github Application Client ID
-  # clientSecret:  #Github Application Client Secret
-  # repository:  #Github repo
-  # owner:  #Github repo owner
-  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-    # - owner
+   clientID:  b4bd7cea514ae9ee8270
+   clientSecret:  4e8b82b3a4f360fc5e2b009ffdc071e9c304c4fe
+   repository:  yestinyang.github.io
+   owner:  yestinyang
+   admin:   
+     - yestinyang
 
 ## Google Analytics ##
 # ga_tracking_id:  #Google analytics id for the site
