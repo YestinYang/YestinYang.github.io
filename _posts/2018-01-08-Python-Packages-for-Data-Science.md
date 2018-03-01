@@ -151,6 +151,8 @@ predictions = cls.predict(X_test)
 
 ## Others
 
+**Jupyter
+
 **[tqdm](https://pypi.python.org/pypi/tqdm)**
 - progression monitor
 76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
@@ -169,5 +171,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzAxMjM3NywyMDYxMjY3MTI3XX0=
+eyJoaXN0b3J5IjpbMjAyMjY0MTY5MCwyMDYxMjY3MTI3XX0=
 -->
