@@ -66,10 +66,57 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - Search for the best pipeline of machine learning by genetic programming
 - ![enter image description here](https://raw.githubusercontent.com/EpistasisLab/tpot/master/images/tpot-ml-pipeline.png)
 
-**[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
-- [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
+**[auto-sklearn](http://github.o/aar/b)**
+- Auoeineering tin ado ran asecii ckiean tato
+- upring clai ors  eesse
+pthon
+mptatolarsation
+ uearncaiationCrse  ee  assient
+pbilistic Machine Learning
 
-**[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
+**[PyMC3](https://github.com/pymc-devs/pymc3)**
+- Bayesian statistical modeling and Probabilistic Machine Learning which focuses on advanced Markov chain Monte Carlo and variational fitting algorithms.
+- GitHub Readme includes tutorial for learning Bayesian statistics using PyMC3
+
+## pecific Data Types
+
+### Image Recognition
+
+**[Detectron fro**[tok](https://ithb.com/facebookresearch/Detectron)**
+- Pre-trained object detection with object masking, instead of object boundingSpecific Data Types
+
+### Time Series Data
+
+[Working with Time Series Data in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
+- List of Python packages about time series data
+
+### Nature Language Processing
+
+**[SpaCy](http://www.](http://](https://spacy.io/)**
+- Industrial-Strength Natural Language Processing
+- [Natural Language Processing Made Easy – using SpaCy (​in Python)](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
+
+**[DeepSpeech](https://pogithub.com/mozilla/DeepSpeech)**
+- Tensorflow implementation of Speech-to-Text synthesis from Baidu
+
+**[TextBlobterio](https://textblob.readthedocs.io/en/dev/)**
+- For common NLP tasks
+- [Natural Language Processing for Beginners: Using TextBlobmapbox.gib.rateio/)**
+- For oo asterio](https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed:%20AnalyticsVidhya%20%28Analytics%20Vidhya%29)
+
+### Audio Data
+
+**[Pydubdatacarpentry.org/blog/sare-forite/odelandyaats
+
+**[u](https://github.com/jiaaro/pydub)**
+- Audio engineering, such as synthesizing audio training dataset by combining background noise and target sound
+- Found in Deep Learning Specialization Course 5 Week 3 assignment
+
+**[JazzML](https://github.com/evancchow/jazzml)**
+- Computational Jazz Improvisation
+- Found in Deep Learning Specialization Course 5 Week 1 assignment
+
+terioautoml.github.io/auto-sklearn/stable/)**
 - An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
 - Supporting classifers / regressors / preprocessers
 ```python
@@ -79,51 +126,10 @@ cls.fit(X_train, y_train)
 predictions = cls.predict(X_test)
 ```
 
-## Probabilistic Machine Learning
+(replaceti t
 
-**[PyMC3](https://github.com/pymc-devs/pymc3)**
-- Bayesian statistical modeling and Probabilistic Machine Learning which focuses on advanced Markov chain Monte Carlo and variational fitting algorithms.
-- GitHub Readme includes tutorial for learning Bayesian statistics using PyMC3
-
-## Specific Data Types
-
-### Image Recognition
-
-**[Detectron from Facebook](https://github.com/facebookresearch/Detectron)**
-- Pre-trained object detection with object masking, instead of object bounding
-
-### Time Series Data
-
-[Working with Time Series Data in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
-- List of Python packages about time series data
-
-### Nature Language Processing
-
-**[SpaCy](https://spacy.io/)**
-- Industrial-Strength Natural Language Processing
-- [Natural Language Processing Made Easy – using SpaCy (​in Python)](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
-
-**[DeepSpeech](https://github.com/mozilla/DeepSpeech)**
-- Tensorflow implementation of Speech-to-Text synthesis from Baidu
-
-**[TextBlob](http://textblob.readthedocs.io/en/dev/)**
-- For common NLP tasks
-- [Natural Language Processing for Beginners: Using TextBlob](https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed:%20AnalyticsVidhya%20%28Analytics%20Vidhya%29)
-
-### Audio Data
-
-**[Pydub](https://github.com/jiaaro/pydub)**
-- Audio engineering, such as synthesizing audio training dataset by combining background noise and target sound
-- Found in Deep Learning Specialization Course 5 Week 3 assignment
-
-**[JazzML](https://github.com/evancchow/jazzml)**
-- Computational Jazz Improvisation
-- Found in Deep Learning Specialization Course 5 Week 1 assignment
-
-### Spatial Data
-
-**[Rasterio](https://mapbox.github.io/rasterio/)**
-- [My Favorite Tool: Rasterio](http://www.datacarpentry.org/blog/sare-favorite/)
+**[ter](https://mapboxhyperopt.github.io/rasterio/)**
+- [My Favorite Tool: Rasterio](http://www.anty.o/blog/are-favorite/)
 
 ## Deployment
 
@@ -163,5 +169,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTI2NzEyN119
+eyJoaXN0b3J5IjpbMTE3NzAxMjM3NywyMDYxMjY3MTI3XX0=
 -->
