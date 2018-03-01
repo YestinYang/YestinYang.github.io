@@ -153,6 +153,7 @@ predictions = cls.predict(X_test)
 
 **[JupyterLab](http://jupyterlab.readthedocs.io/en/stable/index.html)**
 - Jupyter Notebook with Matlab like interface
+![enter image description here](http://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png)
 
 **[tqdm](https://pypi.python.org/pypi/tqdm)**
 - progression monitor
@@ -172,5 +173,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc3NDExMDYsMjA2MTI2NzEyN119
+eyJoaXN0b3J5IjpbMjEyMzk1ODI5NywyMDYxMjY3MTI3XX0=
 -->
