@@ -33,7 +33,7 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[Visdom](https://github.com/facebookresearch/visdom)**
 - alive data visualization dashboard
-![Visdom](https://camo.githubusercontent.com/2b1b3f8ceb9b9379d59183352f1ca3f2e6bbf064/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d6833487576625532563053666771675847694b334c50676845357671765330707a704f6253305967475f4c41424d466b36324a4361334b56755f324e565f344c4a4b614161352d74673d7330)
+  ![Visdom](https://camo.githubusercontent.com/2b1b3f8ceb9b9379d59183352f1ca3f2e6bbf064/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d6833487576625532563053666771675847694b334c50676845357671765330707a704f6253305967475f4c41424d466b36324a4361334b56755f324e565f344c4a4b614161352d74673d7330)
 
 ## Data Cleansing
 
@@ -64,7 +64,8 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 
 **[TPOT](https://github.com/EpistasisLab/tpot)**
 - Search for the best pipeline of machine learning by genetic programming
-- ![enter image description here](https://raw.githubusercontent.com/EpistasisLab/tpot/master/images/tpot-ml-pipeline.png)
+
+  ![enter image description here](https://raw.githubusercontent.com/EpistasisLab/tpot/master/images/tpot-ml-pipeline.png)
 
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
@@ -145,7 +146,14 @@ predictions = cls.predict(X_test)
 
 ## Others
 
+**[JupyterLab](http://jupyterlab.readthedocs.io/en/stable/index.html)**
+
+- Jupyter Notebook with Matlab like interface
+
+  ![JupyterLab](https://camo.githubusercontent.com/910a484ea559b105b2da0b07272fe0ebd3683405/687474703a2f2f6a7570797465726c61622e72656164746865646f63732e696f2f656e2f737461626c652f5f696d616765732f6a7570797465726c61622e706e67)
+
 **[tqdm](https://pypi.python.org/pypi/tqdm)**
+
 - progression monitor
 76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
 
