@@ -90,8 +90,8 @@ pbilistic Machine Learning
 [Working with Time Series Data in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
 - List of Python packages about time series data
 
-[# pyramid](https://github.com/tgsmith61591/pyramid)
-
+[pyramid](https://github.com/tgsmith61591/pyramid)
+- 
 
 ### Nature Language Processing
 
@@ -176,5 +176,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU5MTc4NDgsMjA2MTI2NzEyN119
+eyJoaXN0b3J5IjpbOTU5NjI2MDA4LDIwNjEyNjcxMjddfQ==
 -->
