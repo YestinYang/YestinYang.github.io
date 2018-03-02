@@ -116,6 +116,7 @@ pbilistic Machine Learning
 - Computational Jazz Improvisation
 - Found in Deep Learning Specialization Course 5 Week 1 assignment
 
+### Spatial Data
 terioautoml.github.io/auto-sklearn/stable/)**
 - An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
 - Supporting classifers / regressors / preprocessers
@@ -173,5 +174,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5NjQ2NzY3LDIwNjEyNjcxMjddfQ==
+eyJoaXN0b3J5IjpbLTExOTA0OTA1MDIsMjA2MTI2NzEyN119
 -->
