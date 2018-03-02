@@ -70,20 +70,16 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
 
 **[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
-- An automated machine learning toolkit and a drop-in replacement for a specific scikit-lar/b)**
-- Auoeineering tin ado ran asecii ckiearn estimtator
-- Supportring classifers / regressors / preprocessers
-```pyi ors  eesse
-pthon
+- An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
+- Supporting classifers / regressors / preprocessers
+```python
 import autosklearn.classification
 cls = autosklearn.classification.AutoSklearnClassifier()  ## search the best one among all classifier
 cls.fit(X_train, y_train)
 predictions = cls.predict(X_test)
 ```
 
-## Probatatolarsation
- uearncaiationCrse  ee  assient
-pbilistic Machine Learning
+## Probabilistic Machine Learning
 
 **[PyMC3](https://github.com/pymc-devs/pymc3)**
 - Bayesian statistical modeling and Probabilistic Machine Learning which focuses on advanced Markov chain Monte Carlo and variational fitting algorithms.
@@ -94,26 +90,23 @@ pbilistic Machine Learning
 ### Image Recognition
 
 **[Detectron from Facebook](https://github.com/facebookresearch/Detectron)**
-- Pre-trained object detection with object masking, instead of object boundingSpecific Data Types
+- Pre-trained object detection with object masking, instead of object bounding
 
 ### Time Series Data
 
-**[Working with Time Series Data in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python)**
+[Working with Time Series Data in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
 - List of Python packages about time series data
-
-**[pyramid](https://github.com/tgsmith61591/pyramid)**
-- Python version of `auto.arima`, fitting best ARIMA model
 
 ### Nature Language Processing
 
-**[SpaCy](https://www.spacy.io/)**
+**[SpaCy](https://spacy.io/)**
 - Industrial-Strength Natural Language Processing
 - [Natural Language Processing Made Easy – using SpaCy (​in Python)](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
 
-**[DeepSpeech](https://pogithub.com/mozilla/DeepSpeech)**
+**[DeepSpeech](https://github.com/mozilla/DeepSpeech)**
 - Tensorflow implementation of Speech-to-Text synthesis from Baidu
 
-**[TextBlobterio](https://textblob.readthedocs.io/en/dev/)**
+**[TextBlob](http://textblob.readthedocs.io/en/dev/)**
 - For common NLP tasks
 - [Natural Language Processing for Beginners: Using TextBlob](https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed:%20AnalyticsVidhya%20%28Analytics%20Vidhya%29)
 
@@ -129,20 +122,8 @@ pbilistic Machine Learning
 
 ### Spatial Data
 
-**[Rasterioterioautoml.github.io/auto-sklearn/stable/)**
-- An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
-- Supporting classifers / regressors / preprocessers
-```python
-import autosklearn.classification
-cls = autosklearn.classification.AutoSklearnClassifier()  ## search the best one among all classifier
-cls.fit(X_train, y_train)
-predictions = cls.predict(X_test)
-```
-
-(replaceti t
-
-**[ter](https://mapboxhyperopt.github.io/rasterio/)**
-- [My Favorite Tool: Rasterio](http://www.datacarpeantry.org/blog/sare-favorite/)
+**[Rasterio](https://mapbox.github.io/rasterio/)**
+- [My Favorite Tool: Rasterio](http://www.datacarpentry.org/blog/sare-favorite/)
 
 ## Deployment
 
@@ -164,10 +145,6 @@ predictions = cls.predict(X_test)
 
 ## Others
 
-**[JupyterLab](http://jupyterlab.readthedocs.io/en/stable/index.html)**
-- Jupyter Notebook with Matlab like interface
-![enter image description here](http://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png)
-
 **[tqdm](https://pypi.python.org/pypi/tqdm)**
 - progression monitor
 76%|████████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]
@@ -186,5 +163,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjM2MzA0NCwyMDYxMjY3MTI3XX0=
+eyJoaXN0b3J5IjpbMjA2MTI2NzEyN119
 -->
