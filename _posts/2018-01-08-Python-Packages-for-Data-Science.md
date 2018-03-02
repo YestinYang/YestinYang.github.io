@@ -104,12 +104,9 @@ pbilistic Machine Learning
 
 **[TextBlobterio](https://textblob.readthedocs.io/en/dev/)**
 - For common NLP tasks
-- [Natural Language Processing for Beginners: Using TextBlobmapbox.gib.rateio/)**
-- For oo asterio](https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed:%20AnalyticsVidhya%20%28Analytics%20Vidhya%29)
+- [Natural Language Processing for Beginners: Using TextBlob](https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/)
 
 ### Audio Data
-
-**[Pydubdatacarpentry.org/blog/sare-forite/odelandyaats
 
 **[Pydub](https://github.com/jiaaro/pydub)**
 - Audio engineering, such as synthesizing audio training dataset by combining background noise and target sound
@@ -176,5 +173,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTYwNzM3MTYsMjA2MTI2NzEyN119
+eyJoaXN0b3J5IjpbNDE5NjQ2NzY3LDIwNjEyNjcxMjddfQ==
 -->
