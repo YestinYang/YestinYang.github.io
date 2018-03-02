@@ -53,6 +53,11 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
 **[sklearn-genetic](https://github.com/manuel-calzolari/sklearn-genetic)**
 - Using genetic algorithm ([explanation on KD](https://www.kdnuggets.com/2017/11/rapidminer-evolutionary-algorithms-feature-selection.html))
 
+## Feature Engineering
+
+**[Featuretools](https://github.com/featuretools/featuretools)**
+- Perform automated feature engineering with Deep Feature Synthesis (DFS)
+
 ## Auto Machine Learning
 
 > Leading research group on autoML [Machine Learning for Automated Algorithm Design](http://www.ml4aad.org/)
