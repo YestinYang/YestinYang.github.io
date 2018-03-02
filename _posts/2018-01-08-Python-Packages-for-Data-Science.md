@@ -78,7 +78,7 @@ pbilistic Machine Learning
 - Bayesian statistical modeling and Probabilistic Machine Learning which focuses on advanced Markov chain Monte Carlo and variational fitting algorithms.
 - GitHub Readme includes tutorial for learning Bayesian statistics using PyMC3
 
-## pecific Data Types
+## Specific Data Types
 
 ### Image Recognition
 
@@ -174,5 +174,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA0OTA1MDIsMjA2MTI2NzEyN119
+eyJoaXN0b3J5IjpbODU4MzE0ODk5LDIwNjEyNjcxMjddfQ==
 -->
