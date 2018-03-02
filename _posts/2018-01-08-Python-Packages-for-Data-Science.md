@@ -91,7 +91,7 @@ pbilistic Machine Learning
 - List of Python packages about time series data
 
 [pyramid](https://github.com/tgsmith61591/pyramid)
-- Python version of `auto.arima`, fitting best 
+- Python version of `auto.arima`, fitting best ARIMA model
 
 ### Nature Language Processing
 
@@ -176,5 +176,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODcyNzM4NSwyMDYxMjY3MTI3XX0=
+eyJoaXN0b3J5IjpbMTgwNzU5NjEyMiwyMDYxMjY3MTI3XX0=
 -->
