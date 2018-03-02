@@ -82,7 +82,7 @@ pbilistic Machine Learning
 
 ### Image Recognition
 
-**[Detectron fro**[tok](https://ithb.com/facebookresearch/Detectron)**
+**[Detectron from Facebook](https://ithb.com/facebookresearch/Detectron)**
 - Pre-trained object detection with object masking, instead of object boundingSpecific Data Types
 
 ### Time Series Data
@@ -173,5 +173,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzk1ODI5NywyMDYxMjY3MTI3XX0=
+eyJoaXN0b3J5IjpbODM2MTA4NDEzLDIwNjEyNjcxMjddfQ==
 -->
