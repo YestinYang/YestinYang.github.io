@@ -87,15 +87,15 @@ pbilistic Machine Learning
 
 ### Time Series Data
 
-[Working with Time Series Data in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
+**[Working with Time Series Data in Python](https://github.com/MaxBenChrist/awesome_time_series_in_python)**
 - List of Python packages about time series data
 
-[pyramid](https://github.com/tgsmith61591/pyramid)
+**[pyramid](https://github.com/tgsmith61591/pyramid)**
 - Python version of `auto.arima`, fitting best ARIMA model
 
 ### Nature Language Processing
 
-**[SpaCy](http://www.](http://](https://spacy.io/)**
+**[SpaCy](http://www.spacy.io/)**
 - Industrial-Strength Natural Language Processing
 - [Natural Language Processing Made Easy – using SpaCy (​in Python)](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
 
@@ -111,7 +111,7 @@ pbilistic Machine Learning
 
 **[Pydubdatacarpentry.org/blog/sare-forite/odelandyaats
 
-**[u](https://github.com/jiaaro/pydub)**
+**[Pydub](https://github.com/jiaaro/pydub)**
 - Audio engineering, such as synthesizing audio training dataset by combining background noise and target sound
 - Found in Deep Learning Specialization Course 5 Week 3 assignment
 
@@ -176,5 +176,5 @@ predictions = cls.predict(X_test)
 - GUI interface for data science, like Klarity ACE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzU5NjEyMiwyMDYxMjY3MTI3XX0=
+eyJoaXN0b3J5IjpbLTE3MTYwNzM3MTYsMjA2MTI2NzEyN119
 -->
