@@ -73,9 +73,11 @@ alt.Chart(cars).mark_circle().encode(x='Horsepower',
   ![TPOT](https://raw.githubusercontent.com/EpistasisLab/tpot/master/images/tpot-ml-pipeline.png)
 
 **[MLBox](http://mlbox.readthedocs.io/en/latest/index.html)**
+- Currently Linux only
 - [Tutorial on Automated Machine Learning using MLBox](https://www.analyticsvidhya.com/blog/2017/07/mlbox-library-automated-machine-learning/)
 
 **[auto-sklearn](http://automl.github.io/auto-sklearn/stable/)**
+- Linux only
 - An automated machine learning toolkit and a drop-in replacement for a specific scikit-learn estimator
 - Supporting classifers / regressors / preprocessers
 ```python
