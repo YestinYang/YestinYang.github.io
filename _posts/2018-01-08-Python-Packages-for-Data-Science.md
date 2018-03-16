@@ -168,6 +168,9 @@ predictions = cls.predict(X_test)
 - Portable environment for your code
 - [How Docker Can Help You Become A More Effective Data Scientist](https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5)
 
+**[Prettier Python Plugin](https://github.com/prettier/plugin-python/blob/master/README.md)**
+- Make your Python arrange nicer and more professional
+
 ## Commercial Tools
 
 **[KNIMI](https://www.knime.com/)**
