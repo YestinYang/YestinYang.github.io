@@ -87,6 +87,18 @@ cls.fit(X_train, y_train)
 predictions = cls.predict(X_test)
 ```
 
+## Hyperparameter Searching
+
+**[Hyperopt](http://hyperopt.github.io/hyperopt/)**
+- Hyperparameter search with Random Search and Tree of Parzen Estimators (TPE)
+
+## Stacking Architecture
+
+**[StackNet](https://github.com/kaz-Anova/StackNet)**
+- Stacking: replace the neurons of neural network (linear regression) with any supervised learning algorithm
+- Restacking
+![Restacking](https://github.com/kaz-Anova/StackNet/blob/master/images/stacknet_modes.png?raw=true)
+
 ## Probabilistic Machine Learning
 
 **[PyMC3](https://github.com/pymc-devs/pymc3)**
