@@ -95,7 +95,7 @@ predictions = cls.predict(X_test)
 ## Stacking Architecture
 
 **[StackNet](https://github.com/kaz-Anova/StackNet)**
-- Stacking: replace the neurons of neural network (linear regression) with any supervised learning algorithm
+- Stacking: replace the neurons of neural network (linear regression) with any supervised learning algorithm, and trained only from forward prop due to no gradient
 - Restacking
 ![Restacking](https://github.com/kaz-Anova/StackNet/blob/master/images/stacknet_modes.png?raw=true)
 
