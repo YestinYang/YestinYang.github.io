@@ -85,6 +85,8 @@ tags:
 
 ##  5. 用StackEdit撰写博文
 
+（2018-03-23 更新：也可以使用[Dillinger](https://dillinger.io/)替代，如果你更喜欢在自己电脑上写，可以下载[Typora](https://typora.io/)）
+
 GitHub Pages使用Markdown语言作为博文的编写语言。听到“语言”两个字先别慌，其实一篇Markdown文档中99%都是你自己写的内容，1%是控制文章格式的符号。花10分钟阅读一下[简书上的教程](https://www.jianshu.com/p/q81RER)就可以上手🏆。
 
 回到正题，StackEdit是一个免费的Markdown在线编辑器，其最重要的特性是可以与GitHub Repository中的文件进行双向同步。也就是说，我们可以在GitHub中建立我们的文档后，在StackEdit中进行文章的撰写。~~其实最吸引人的特性是可以spell check~~
