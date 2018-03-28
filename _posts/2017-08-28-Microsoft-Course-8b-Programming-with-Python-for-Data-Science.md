@@ -83,7 +83,7 @@ Collect as many samples and features as you can, and use your intuitive to under
 	- Using Boolean index series for slicing
 		- **df[ df.recency < 7 ]**
 		- **df[ (df.recency < 7) & (df.newbie == 0) ]**
-		- **df[ (df.recency < 7) | (df.newbie == 0) ]**
+		- **df[ (df.recency < 7) \| (df.newbie == 0) ]**
 	- Replacing with Boolean
 		- **df[df.recency < 7] = -100**
 		- ![Example of Replacing with Boolean](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1502721957958.png)
