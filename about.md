@@ -13,3 +13,10 @@ key: page-about
 {% highlight Python %}
   print ('hello, world!')
 {% endhighlight %}
+
+## Skills
+
+- HTML5, CSS3(SASS), JavaScript(ES2017, Node.js), Bash(Zsh)
+- React, React Native, Vue.js
+- gulp, webpack
+- Adobe Photoshop, Sketch
