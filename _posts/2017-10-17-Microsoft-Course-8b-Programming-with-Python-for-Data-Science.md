@@ -845,34 +845,35 @@ array([[2, 0, 0],
 - Scoring Metrics
 	- Evaluate the predictor while predicting each class
 	- True Positive / True Negative / False Positive / False Negative
-	```python
-	# Accuracy
-	>>> metrics.accuracy_score(y_true, y_pred)
-	0.5
-	>>> metrics.accuracy_score(y_true, y_pred, normalize=False)
-	3
 
-	# Precision
-	>>> metrics.precision_score(y_true, y_pred, average='weighted')
-	0.38888888888888884
-	>>> metrics.precision_score(y_true, y_pred, average=None)
-	array([ 0.66666667,  0. ,  0.5])
-	
-	# F1 score
-	>>> metrics.f1_score(y_true, y_pred, average='weighted')
-	0.43333333333333335
-	>>> metrics.f1_score(y_true, y_pred, average=None)
-	array([ 0.8,  0. ,  0.5])
+```python
+# Accuracy
+>>> metrics.accuracy_score(y_true, y_pred)
+0.5
+>>> metrics.accuracy_score(y_true, y_pred, normalize=False)
+3
 
-	# Full report
-	>>> target_names = ['Fruit 1', 'Fruit 2', 'Fruit 3']
-	>>> metrics.classification_report(y_true, y_pred, target_names=target_names)
-	             precision    recall  f1-score   support
-    Fruit 1       0.67      1.00      0.80         2
-    Fruit 2       0.00      0.00      0.00         2
-    Fruit 3       0.50      0.50      0.50         2
+# Precision
+>>> metrics.precision_score(y_true, y_pred, average='weighted')
+0.38888888888888884
+>>> metrics.precision_score(y_true, y_pred, average=None)
+array([ 0.66666667,  0. ,  0.5])
+
+# F1 score
+>>> metrics.f1_score(y_true, y_pred, average='weighted')
+0.43333333333333335
+>>> metrics.f1_score(y_true, y_pred, average=None)
+array([ 0.8,  0. ,  0.5])
+
+# Full report
+>>> target_names = ['Fruit 1', 'Fruit 2', 'Fruit 3']
+>>> metrics.classification_report(y_true, y_pred, target_names=target_names)
+precision    recall  f1-score   support
+Fruit 1       0.67      1.00      0.80         2
+Fruit 2       0.00      0.00      0.00         2
+Fruit 3       0.50      0.50      0.50         2
 avg / total       0.39      0.50      0.43         6
-	```
+```
 
 ### Cross Validation
 
@@ -951,6 +952,7 @@ Chaining estimators
 - Scenario 1 -- Convenience and Encapsulation
 	- for fixed sequence steps in processing the data
 	- tune hyper-parameters of all estimators at one shot
+
 ```python
 >>> from sklearn.pipeline import Pipeline
 
