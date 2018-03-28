@@ -26,7 +26,7 @@ Time Series vs. Random or Independent Noise
 
 **Autocorrelation**: value at $$t=0$$ has correlation with the value at following $$t$$
 
-Autocorrelation
+Autocorrelation                                
 ![@Autocorrelation](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050427726.png){:.border}
 
 **Regular Reporting**: Some algorithms can only work with regular reporting
@@ -242,7 +242,7 @@ Visualize relationship of different features and overlay multiple features in on
 
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504974993741.png){:.border}
 
-## Text Analytics
+## 3. Text Analytics
 
 Summary of text / compare between text or classification 
 
@@ -300,7 +300,7 @@ TF-IDF is the key factor used in search engines
 
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505259624308.png){:.border}
 
-## Image Analysis
+## 4. Image Analysis
 
 Photographs / Security cameras / Check reader / Medical images / Art work analysis ...
 
