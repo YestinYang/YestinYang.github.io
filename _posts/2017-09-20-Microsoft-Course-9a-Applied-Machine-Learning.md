@@ -21,14 +21,17 @@ Finance / stock / currency exchange rate / sales forecast / temperature / heartr
 
 #### The Nature of Time Series Data
 
+Time Series vs. Random or Independent Noise
 ![@Time Series vs. Random or Independent Noise](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050649521.png)
 
 **Autocorrelation**: value at $$t=0$$ has correlation with the value at following $$t$$
 
+Autocorrelation
 ![@Autocorrelation](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050427726.png)
 
 **Regular Reporting**: Some algorithms can only work with regular reporting
 
+Regular vs. Irregular Reporting
 ![@Regular vs. Irregular Reporting](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050906721.png)
 
 #### Decomposition -- STL Package (Investigating)
@@ -122,6 +125,7 @@ Today's value is slightly different from a combination of the last $$p$$ day's v
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504343835929.png)
 
 **ACF:** Exponential decay; can not identify order $$p$$
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504344131782.png)
 
 ##### Partial Autocorrelation
@@ -182,6 +186,7 @@ Types of Distance
 - Euclidean distance (physical distance; use built-in tool to calculate since earth is round)
 - Driving / Walking distance
 - Adapted to the local area (like same building)
+Distance Matrix
 ![@Distance Matrix](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504622881694.png)
 
 Visualize relationship of different features and overlay multiple features in one plot by various way like bubble size or filled color
@@ -316,6 +321,7 @@ Photographs / Security cameras / Check reader / Medical images / Art work analys
 - Adaptive Histogram Equalization to improve contrast
 	- The histogram equalization algorithm attempts to adjust the pixel values in the image to create a more uniform distribution
 	- [exposure.equalize_adapthist](http://scikit-image.org/docs/dev/api/skimage.exposure.html?highlight=exposure#skimage.exposure.equalize_adapthist) from skimage
+		- Before and After Equalization
 		- ![@Before and After Equalization](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505527870968.png)
 
 #### Image Manipulation
@@ -343,6 +349,7 @@ Photographs / Security cameras / Check reader / Medical images / Art work analys
 ##### Sobel Edge Detection
 
 > Detecting edge by looking for single direction gradients within selected area
+> Viola and Jones Method in Course 7
 > ![@Viola and Jones Method in Course 7](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505648783364.png)
 
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505650122952.png)
