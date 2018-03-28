@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Microsoft Certificate in Data Science -- Course 8b Programming with Python for Data Science
-key: 20171017
+key: 20170828
 tags:
   - Microsoft
   - Notes
@@ -13,7 +13,7 @@ lang: en
 
 
 
-![@Structure of This Course](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1502668708572.png)
+![@Structure of This Course](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1502668708572.png)
 
 ## 1. The Big Picture
 
@@ -40,9 +40,9 @@ lang: en
 
 Collect as many samples and features as you can, and use your intuitive to understand your question so can choose best feature structures
 
-- ![Data Structure](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1502724390739.png)
+- ![Data Structure](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1502724390739.png)
 
-- ![Types of Features](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1502724434736.png)
+- ![Types of Features](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1502724434736.png)
 
 ### Determining Features
 
@@ -61,7 +61,7 @@ Collect as many samples and features as you can, and use your intuitive to under
 - Loading data
 	- **pd.read_csv** and **pd.read_html**
 		- *sep / delimiter / header / names / index_col / skipinitialspace / skiprows / na_values / thousands / decimal*
-		- ![Axis Setting](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1502724512428.png)
+		- ![Axis Setting](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1502724512428.png)
 
 - Quick peek of your data
 	- **df.head(num) / df.describe() / df.columns / df.index / df.dtypes / df.unique() / df.value_counts()**
@@ -86,7 +86,7 @@ Collect as many samples and features as you can, and use your intuitive to under
 		- **df[ (df.recency < 7) | (df.newbie == 0) ]**
 	- Replacing with Boolean
 		- **df[df.recency < 7] = -100**
-		- ![Example of Replacing with Boolean](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1502721957958.png)
+		- ![Example of Replacing with Boolean](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1502721957958.png)
 
 ### Feature Representation
 
@@ -264,7 +264,7 @@ my_dataframe.plot.hist(alpha=0.5)
 plt.show()
 ```
 
-![@G3](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503928707234.png) ![@G1+G2+G3](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503928710002.png)
+![@G3](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503928707234.png) ![@G1+G2+G3](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503928710002.png)
 
 ### 2D Scatter Plots
 
@@ -310,7 +310,7 @@ Each vertical axis is one dimension, for less than 10 features
 
 - In MatPlotLib, unique y scale for all features --> consider normalization or log scale
 
-![Parallel Coordinates](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503932447227.png)
+![Parallel Coordinates](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503932447227.png)
 
 ```python
 from sklearn.datasets import load_iris  # a classification sample dataset
@@ -341,7 +341,7 @@ Each feature is set as the coefficient of a Fourier-series curve *(可理解为 
 - Can easily detect outlier
 - No normalization needed while defining groups
 
-![@Andrew's Curve in Python](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503932214245.png)![@Andrew's Curve in Matlab Plotting Mean and Cut-off](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503932246680.png)
+![@Andrew's Curve in Python](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503932214245.png)![@Andrew's Curve in Matlab Plotting Mean and Cut-off](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503932246680.png)
 
 ```python
 from sklearn.datasets import load_iris
@@ -368,7 +368,7 @@ plt.show()
 
 Visualize covariance matrix for correlation coefficient
 
-![Matrix Plot by Imshow](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503932895621.png)
+![Matrix Plot by Imshow](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503932895621.png)
 
 ```python
 df = pd.DataFrame(np.random.randn(1000, 5), columns=['a', 'b', 'c', 'd', 'e'])
@@ -397,7 +397,7 @@ plt.show()
 
 Create a new space includes only the feature with the most distinguish power based on relationship among samples
 
-![@Best View](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1504020663963.png)![@Top View - less effective](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1504020683800.png)![@Post Transforming](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1504020702868.png)
+![@Best View](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1504020663963.png)![@Top View - less effective](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1504020683800.png)![@Post Transforming](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1504020702868.png)
 
 - We collect as much data as we can while doing data collection step
 - But it will include a lot of 'duplicate' information because we may examine the object in similar view angle
@@ -418,7 +418,7 @@ Linear unsupervised dimensionality reduction algorithm
 	- transform old coordinate into new orthogonal space -- projection only on principle component/axis/view/feature
 	- PS: in actual calculation, it is done by covariance and eigenvector calculation
 
-![@How PCA Works](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1504020951651.png)
+![@How PCA Works](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1504020951651.png)
 
 - Limitation
 	- Linear transformation only
@@ -477,7 +477,7 @@ def drawVectors(transformed_features, components_, columns, plt, scaled):
 
     return ax
 ```
-![Output of Projecting Code](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1504021527949.png)
+![Output of Projecting Code](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1504021527949.png)
 
 ```python
 # Preprocessing with StandardScaler and add in column names
@@ -511,7 +511,7 @@ Non-linear unsupervised dimensionality reduction algorithm
 	- calculate the distance from each sample to every other sample
 	- only keep the K-nearest samples per sample in the neighborhood list --> like a map of  the cities
 	- estimate the lower dimension embedded in dataset, also as manifold representation of dataset -- *as a special type of PCA targeting on distance*
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1506216538106.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1506216538106.png)
 
 ```python
 >>> from sklearn import manifold
@@ -606,7 +606,7 @@ Supervised; categorical output; K-Neighbor as example
 - **Procedure:**
 	- just store training dataset together with label -- new labeled data can just top up without retrain the model
 	- for each test sample, we get its nearest k neighbors, and do a mode vote to assign a label
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1506382982459.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1506382982459.png)
 
 - **Setting:** focus on cluster or centroid
 	- **n_neighbors:**
@@ -660,7 +660,7 @@ for i in range(15):
 from sklearn.metrics import confusion_matrix
 confusion_matrix(y_test, model.predict(X_test), labels= #label by sequence)
 ```
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1506383981004.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1506383981004.png)
 
 ### Regression
 
@@ -671,7 +671,7 @@ Supervised; continuous output; linear regression as example
 - **Procedure:**
 	- to find best fitting dimensional hyper plane
 	- minimize the sum of square error / ordinary least squares
-	- ![@Comparison between linear correlation (y~x and x~y) and PCA](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1506427993194.png)
+	- ![@Comparison between linear correlation (y~x and x~y) and PCA](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1506427993194.png)
 
 - **Setting:**
 	- data input
@@ -737,7 +737,7 @@ Intuitive and simulating the procedure of decision making in our life (example: 
 	- Considering one features per time -- one node
 	- Splitting criteria of upper node is to minimize the impurity/entropy (or maximize information gain) in lower node
 	- The more **unique** and **related** questions you ask, the more accurate you predict. Improper questions will render overfitting.
-	- ![Example of Decision Tree](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503068527741.png)
+	- ![Example of Decision Tree](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503068527741.png)
 
 - Characteristic
 	- Like SVM, support non-linear decision-making by use of a linear decision surface, but by dividing up feature set into sections and boxes (add up multiple linear surfaces)
@@ -818,8 +818,8 @@ print model.oob_score_
 
 - The Confusion Matrix
 	- Comparing Predicted Value @ X-axis against Actual Value @ Y-axis
-	- ![Confusion Matrix](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503497640055.png)
-	- ![imshow of Confusion Matrix](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-10-17_1503497654640.png)
+	- ![Confusion Matrix](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503497640055.png)
+	- ![imshow of Confusion Matrix](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_1503497654640.png)
 	
 ```python
 >>> import sklearn.metrics as metrics
