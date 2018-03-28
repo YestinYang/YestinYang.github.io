@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Specialization 2 -- Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+title: Deep Learning Specialization 2 -- Improving Deep Neural Networks
 key: 20171204
 tags:
   - Coursera
@@ -14,6 +14,8 @@ mathjax_autoNumber: true
 ---
 
 deeplearning.ai by Andrew Ng on Coursera
+
+Full Course Name: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
 ## W1: Practical aspects of Deep Learning
 
