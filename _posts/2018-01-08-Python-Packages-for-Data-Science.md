@@ -3,7 +3,7 @@ layout: post
 title: Python Packages for Data Science 
 key: 20180108
 tags:
-  - info as list
+  - Info as List
 lang: en
 ---
 
