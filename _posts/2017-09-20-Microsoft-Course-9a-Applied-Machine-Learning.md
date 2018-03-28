@@ -22,21 +22,21 @@ Finance / stock / currency exchange rate / sales forecast / temperature / heartr
 #### The Nature of Time Series Data
 
 Time Series vs. Random or Independent Noise
-![@Time Series vs. Random or Independent Noise](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050649521.png)
+![@Time Series vs. Random or Independent Noise](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050649521.png){:.border}
 
 **Autocorrelation**: value at $$t=0$$ has correlation with the value at following $$t$$
 
 Autocorrelation
-![@Autocorrelation](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050427726.png)
+![@Autocorrelation](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050427726.png){:.border}
 
 **Regular Reporting**: Some algorithms can only work with regular reporting
 
 Regular vs. Irregular Reporting
-![@Regular vs. Irregular Reporting](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050906721.png)
+![@Regular vs. Irregular Reporting](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050906721.png){:.border}
 
 #### Decomposition -- STL Package (Investigating)
 
-![Components of Time Series Data](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504100756257.png)
+![Components of Time Series Data](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504100756257.png){:.border}
 
 ##### STL Package Procedure
 
@@ -56,26 +56,26 @@ General trend $$T$$ for smoothing time series data
 > *polynomial* for smooth
 
 **Step 1:** Define the window width m, and do **local** regression with m nearest neighbors
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504102705116.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504102705116.png){:.border}
 
 **Step 2:** Choose a weight function giving higher weights to nearer points to center
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504102692688.png)
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504102609678.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504102692688.png){:.border}
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504102609678.png){:.border}
 
 **Step 3:** Do quadratic Taylor's polynomial regression considering the weights from Step 2
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504103390681.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504103390681.png){:.border}
 
 **Step 4:** Substitute $$x_{0}$$ with $$\widehat{x_{0}}$$, which is calculated from regression when $$t_{i}=t_{0}$$
 
 **Step 5:** Repeat above for each $$\widehat{x}$$ of $$t$$, then connect points to get the general trend
 
-![Adjusting Window](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504105995941.png)
+![Adjusting Window](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504105995941.png){:.border}
 
 ##### Moving Average Smoothing
 
 Fine-grained trend $$C$$ for smoothing time series data with **clearly periodicity** (after extract general trend)
 
-![Procedure of Moving Average Smoothing](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504233307082.png)
+![Procedure of Moving Average Smoothing](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504233307082.png){:.border}
 
 #### Stationary Remainder / Time Series
 
@@ -85,10 +85,10 @@ Second-order stationarity conditions:
 3. An autocovariance that does not depend on time
 
 **Technique 1:** Boxplots with binned data point into upper hierarchy
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504234520365.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504234520365.png){:.border}
 
 **Technique 2:** Boxplots with binned data point into upper hierarchy
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504234648362.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504234648362.png){:.border}
 
 #### Autocorrelation and Autocovariance
 
@@ -97,7 +97,7 @@ Second-order stationarity conditions:
 Auto = self
 ACF = Autocorrelation Function
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504237222122.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504237222122.png){:.border}
 
 ### Working with Time Series
 
@@ -111,36 +111,36 @@ Introduction of models for modeling different types of time series data so that 
 #### Moving Average Models MA(q)
 
 > Microsoft announces one news everyday, and its stock will be affected by today's and last 2-days news
-> ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504324039241.png)
+> ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504324039241.png){:.border}
 
 A model has only short memory of the previous noise
-![Moving Average Model](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504324300066.png)
+![Moving Average Model](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504324300066.png){:.border}
 
 **ACF:** sharp cut off after order q; can identify whether you data can be modeled as $$MA(q)$$ with what order $$q$$
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504326187335.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504326187335.png){:.border}
 
 #### Autoregression Models AR(p)
 
 Today's value is slightly different from a combination of the last $$p$$ day's values
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504343835929.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504343835929.png){:.border}
 
 **ACF:** Exponential decay; can not identify order $$p$$
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504344131782.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504344131782.png){:.border}
 
 ##### Partial Autocorrelation
 
 >The correlation that is not accounted for all of the lags in between
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504345731662.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504345731662.png){:.border}
 
-![@Comparison between ACF and PACF of AR(1)](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504355947462.png)
+![@Comparison between ACF and PACF of AR(1)](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504355947462.png){:.border}
 
 #### Auto-Regressive Moving Average Model ARMA(p,q)
 
 Used when both ACF and PACF shows slow decay
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504356507431.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504356507431.png){:.border}
 
 #### Auto-Regressive Integrated Moving Average Model ARIMA(d,p,q)
 
@@ -148,24 +148,24 @@ Used when both ACF and PACF shows slow decay
 
 >Non-stationary time series can have stationary differences
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504358325135.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504358325135.png){:.border}
 
 Higher order trends can be turned into stationary models through repeated differencing 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504358681370.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504358681370.png){:.border}
 
 ##### Model Details
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504359151123.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504359151123.png){:.border}
 
 #### Exponentially Weighted Moving Averages Model EWMA / Simple Exponential Smoothing Model SES
 
 Most widely used for business applications / forecasting
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504370455425.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504370455425.png){:.border}
 
 ### Forecasting in Context
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504419046425.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504419046425.png){:.border}
 
 ### Reference
 
@@ -187,7 +187,7 @@ Types of Distance
 - Driving / Walking distance
 - Adapted to the local area (like same building)
 Distance Matrix
-![@Distance Matrix](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504622881694.png)
+![@Distance Matrix](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504622881694.png){:.border}
 
 Visualize relationship of different features and overlay multiple features in one plot by various way like bubble size or filled color
 
@@ -196,7 +196,7 @@ Visualize relationship of different features and overlay multiple features in on
 - Go-to method for density / event rate $$\lambda$$ estimation
 - "Nonparametric", meaning that there is a bump on each point
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504655253027.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504655253027.png){:.border}
 
 #### K-Nearest Neighbour
 
@@ -214,16 +214,16 @@ Visualize relationship of different features and overlay multiple features in on
 
 > Probability estimation of occurrence count in an area in a period, based on Poisson distribution, which is a discrete probability distribution
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504704710467.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504704710467.png){:.border}
 
 #### Variogram
 
 > Estimate the (label) covariance between samples with spatial changes in units, which is just like the ACF and PACF for time series
 > Input data is labeled
 > Consider overall data in dataset
-> ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504741135367.png)
+> ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504741135367.png){:.border}
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505046512171.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505046512171.png){:.border}
 
 - Reference
 	- [Semi-Variogram: Nugget, Range and Sill](http://gisgeography.com/semi-variogram-nugget-range-sill/)
@@ -236,11 +236,11 @@ Visualize relationship of different features and overlay multiple features in on
 
 > Interpolation method for estimating the property of unsampled location, so can get the complete map
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504971854754.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504971854754.png){:.border}
 
 ### Spatial Data in Context
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504974993741.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504974993741.png){:.border}
 
 ## Text Analytics
 
@@ -248,7 +248,7 @@ Summary of text / compare between text or classification
 
 ### Introduction to Text Analytics
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505087678525.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505087678525.png){:.border}
 
 #### Word Frequency
 
@@ -294,11 +294,11 @@ TF-IDF is the key factor used in search engines
 
 #### Introduction to Natural Language Processing
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505229757541.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505229757541.png){:.border}
 
 ### Text Analytics in Context
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505259624308.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505259624308.png){:.border}
 
 ## Image Analysis
 
@@ -311,7 +311,7 @@ Photographs / Security cameras / Check reader / Medical images / Art work analys
 - misc function from scipy (output a numpy array with rows and columns as the image size)
 - imshow from matplotlib.pyplot
 - glob.glob for multiple images reading
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505526258599.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505526258599.png){:.border}
 
 #### Image Properties
 
@@ -322,7 +322,7 @@ Photographs / Security cameras / Check reader / Medical images / Art work analys
 	- The histogram equalization algorithm attempts to adjust the pixel values in the image to create a more uniform distribution
 	- [exposure.equalize_adapthist](http://scikit-image.org/docs/dev/api/skimage.exposure.html?highlight=exposure#skimage.exposure.equalize_adapthist) from skimage
 		- Before and After Equalization
-		- ![@Before and After Equalization](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505527870968.png)
+		- ![@Before and After Equalization](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505527870968.png){:.border}
 
 #### Image Manipulation
 
@@ -335,12 +335,12 @@ Photographs / Security cameras / Check reader / Medical images / Art work analys
 >> The reason may be that it covers and removes the unnecessary / meaningless portion of image, which also happens in time series analysis when doing cross-correlation function for two series case
 
 - Pre-whitening to add noise
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505534646497.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505534646497.png){:.border}
 - Denoising by gaussian_filter / median_filter from [scipy.ndimage.filters](https://docs.scipy.org/doc/scipy/reference/ndimage.html#filters)
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505533877786.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505533877786.png){:.border}
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505532904685.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505532904685.png){:.border}
 
 ### Working with Images
 
@@ -350,9 +350,9 @@ Photographs / Security cameras / Check reader / Medical images / Art work analys
 
 > Detecting edge by looking for single direction gradients within selected area
 > Viola and Jones Method in Course 7
-> ![@Viola and Jones Method in Course 7](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505648783364.png)
+> ![@Viola and Jones Method in Course 7](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505648783364.png){:.border}
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505650122952.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505650122952.png){:.border}
 
 ##### Segmentation
 
@@ -364,7 +364,7 @@ Simplest way --> threshold (move out the points under or over threshold)
 
 > Compute Q matrix in E function representing a ellipse, and detect a corner when Q has 2 large eigenvalues which illustrates smaller principal axes of ellipse
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505658464478.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505658464478.png){:.border}
 
 #### Introduction to Mathematical Morphology
 
@@ -372,12 +372,12 @@ Simplest way --> threshold (move out the points under or over threshold)
 
 > Fill or remove the center pixel of specific shape to do dilation and erosion
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505837315985.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505837315985.png){:.border}
 
 ##### Opening and Closing
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505692781412.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505692781412.png){:.border}
 
 ### Image Analysis In Context
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505777992871.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505777992871.png){:.border}
