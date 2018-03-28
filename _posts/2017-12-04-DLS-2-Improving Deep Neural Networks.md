@@ -93,6 +93,7 @@ to verify the back propagation is correctly implemented
 **V1&V2: mini-batch gradient descent**
 - split huge training set into small batches
 - compared to batch gradient descent, mini-batch can make progress without training the whole training set. So each descent step is faster but oscillating
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512002838033.png){:.border}
 
 ### Gradient Descent with Momentum
@@ -137,10 +138,12 @@ to verify the back propagation is correctly implemented
 **V1: tuning process**
 - use random search for higher efficiency, not grid search
 - from coarse to fine
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512307158812.png){:.border}
 
 **V2: appropriate scale for searching**
 - choose the scale to search efficiently
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512307400927.png){:.border}
 
 **V3: tuning practice**
@@ -154,6 +157,7 @@ to verify the back propagation is correctly implemented
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512356740610.png){:.border}
 
 **V2: add in batch norm**
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512356674989.png){:.border}
 
 **V3: why works**
@@ -173,6 +177,7 @@ to verify the back propagation is correctly implemented
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512359766490.png){:.border}
 
 **V2: training a softmax classifier**
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512360819247.png){:.border}
 
 ### Introduction to Programming Frameworks

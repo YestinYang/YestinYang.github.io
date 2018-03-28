@@ -20,6 +20,9 @@ deeplearning.ai by Andrew Ng on Coursera
 ### Building Sequence Model
 
 **Notation:**
+
+
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-02-19_1517471514373.png){:.border}
 
 **Model Architecture:**
@@ -41,6 +44,9 @@ deeplearning.ai by Andrew Ng on Coursera
 ### Language Model and Sequence Generation
 
 **Purpose:** exam the probability of sentences
+
+
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-02-19_1517531029321.png){:.border}
 
 **Training the model:**
@@ -104,6 +110,9 @@ deeplearning.ai by Andrew Ng on Coursera
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-02-19_1518010060113.png){:.border}
 
 **Embedding Matrix Notation:**
+
+
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-02-19_1518010564486.png){:.border}
 
 ### Learning Word Embeddings: Word2vec & GloVe
@@ -119,6 +128,9 @@ deeplearning.ai by Andrew Ng on Coursera
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-02-19_1518231565523.png){:.border}
 
 **GloVe Word Vectors:** 
+
+
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-02-19_1518257540649.png){:.border}
 
 ### Application using Word Embeddings
