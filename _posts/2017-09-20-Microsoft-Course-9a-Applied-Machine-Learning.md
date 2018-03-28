@@ -9,6 +9,8 @@ tags:
   - Machine Learning
   - Data Science
 lang: en
+mathjax: true
+mathjax_autoNumber: true
 ---
 
 ## 1. Time Series and Forecasting
@@ -21,7 +23,7 @@ Finance / stock / currency exchange rate / sales forecast / temperature / heartr
 
 ![@Time Series vs. Random or Independent Noise](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050649521.png)
 
-**Autocorrelation**: value at $t=0$ has correlation with the value at following $t$
+**Autocorrelation**: value at $$t=0$$ has correlation with the value at following $$t$$
 
 ![@Autocorrelation](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504050427726.png)
 
@@ -35,16 +37,16 @@ Finance / stock / currency exchange rate / sales forecast / temperature / heartr
 
 ##### STL Package Procedure
 
-1. Start with time series data $X$
-2. Use Loess to find a general trend $T$
-3. Use Moving Average Smoothing $X-T$ to find fine-grained trend $C$
-4. Get seasonal / periodic component $S = X-T-C$
-5. Get final trend $V$ by smoothing the nonseasonal trend $X-S$ with Loess
-6. Get remainder $R = X-S-V$
+1. Start with time series data $$X$$
+2. Use Loess to find a general trend $$T$$
+3. Use Moving Average Smoothing $$X-T$$ to find fine-grained trend $$C$$
+4. Get seasonal / periodic component $$S = X-T-C$$
+5. Get final trend $$V$$ by smoothing the nonseasonal trend $$X-S$$ with Loess
+6. Get remainder $$R = X-S-V$$
 
 ##### Lowess / Loess Regression
 
-General trend $T$ for smoothing time series data
+General trend $$T$$ for smoothing time series data
 
 > **Idea:** fit local polynomial models and merge them together
 > *local* for flexible
@@ -60,15 +62,15 @@ General trend $T$ for smoothing time series data
 **Step 3:** Do quadratic Taylor's polynomial regression considering the weights from Step 2
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504103390681.png)
 
-**Step 4:** Substitute $x_{0}$ with $\widehat{x_{0}}$, which is calculated from regression when $t_{i}=t_{0}$
+**Step 4:** Substitute $$x_{0}$$ with $$\widehat{x_{0}}$$, which is calculated from regression when $$t_{i}=t_{0}$$
 
-**Step 5:** Repeat above for each $\widehat{x}$ of $t$, then connect points to get the general trend
+**Step 5:** Repeat above for each $$\widehat{x}$$ of $$t$$, then connect points to get the general trend
 
 ![Adjusting Window](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504105995941.png)
 
 ##### Moving Average Smoothing
 
-Fine-grained trend $C$ for smoothing time series data with **clearly periodicity** (after extract general trend)
+Fine-grained trend $$C$$ for smoothing time series data with **clearly periodicity** (after extract general trend)
 
 ![Procedure of Moving Average Smoothing](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504233307082.png)
 
@@ -111,15 +113,15 @@ Introduction of models for modeling different types of time series data so that 
 A model has only short memory of the previous noise
 ![Moving Average Model](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504324300066.png)
 
-**ACF:** sharp cut off after order q; can identify whether you data can be modeled as $MA(q)$ with what order $q$
+**ACF:** sharp cut off after order q; can identify whether you data can be modeled as $$MA(q)$$ with what order $$q$$
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504326187335.png)
 
 #### Autoregression Models AR(p)
 
-Today's value is slightly different from a combination of the last $p$ day's values
+Today's value is slightly different from a combination of the last $$p$$ day's values
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504343835929.png)
 
-**ACF:** Exponential decay; can not identify order $p$
+**ACF:** Exponential decay; can not identify order $$p$$
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504344131782.png)
 
 ##### Partial Autocorrelation
@@ -186,7 +188,7 @@ Visualize relationship of different features and overlay multiple features in on
 
 #### Kernel Density Estimation KDE
 
-- Go-to method for density / event rate $\lambda$ estimation
+- Go-to method for density / event rate $$\lambda$$ estimation
 - "Nonparametric", meaning that there is a bump on each point
 
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1504655253027.png)
@@ -275,7 +277,7 @@ Also called hashing (kernel) trick.
 
 > TF = Term Frequency (the number of times you see a word)
 > IDF = Inverse Document Frequency
-> $TF\cdot log(\frac{\#Documents}{\#Number\ of\ Documents\ Word\ Appears})$
+> $$TF\cdot log(\frac{\#Documents}{\#Number\ of\ Documents\ Word\ Appears})$$
 
 TF-IDF is the key factor used in search engines
 
