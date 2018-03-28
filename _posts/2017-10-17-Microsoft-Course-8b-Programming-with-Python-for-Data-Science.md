@@ -912,6 +912,7 @@ array([ 0.93513514,  0.99453552,  0.97237569,  0.98888889,  0.96089385,  0.98882
 Model + hyper-parameters + Cross-Validation
 
 - **GridSearchCV**
+
 ```python
 >>> from sklearn import svm, grid_search, datasets
 
@@ -925,12 +926,13 @@ Model + hyper-parameters + Cross-Validation
 >>> classifier = grid_search.GridSearchCV(model, parameters)
 >>> classifier.fit(iris.data, iris.target)
 
-# classifier now stores the best result for .predict() / .score() etc. as normal
+	# classifier now stores the best result for .predict() / .score() etc. as normal
 ```
 
 - **RandomizedSearchCV**
+
 ```python
-# Input a distribution for the parameter instead of a list of value (grid object) to try
+	# Input a distribution for the parameter instead of a list of value (grid object) to try
 
 >>> parameter_dist = {
   'C': scipy.stats.expon(scale=100), 
@@ -969,8 +971,9 @@ Chaining estimators
 - Safty -- help avoid leaking statistics from your test data into the trained model in cross-validation, by ensuring that the same samples are used to train the transformers and predictors
 
 - (Requirement) All estimators in a pipeline must have transform method, except the last one
+
 ```python
-# Script to add in transform method for a estimator without it
+	# Script to add in transform method for a estimator without it
 from sklearn.base import TransformerMixin
 
 class ModelTransformer(TransformerMixin):
