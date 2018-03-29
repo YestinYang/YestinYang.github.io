@@ -54,7 +54,7 @@ mathjax_autoNumber: true
   - `git checkout` switch `HEAD` pointer to a branch, making it as active branch
     - convert file version to latest version of active branch (it replace all files under commit in previous branch, with that in the new branch)
     - `git checkout -b <new_branch_name> <create_on_which_branch>`  create a new branch and checkout it
-    - ![Git Branches](https://github.com/YestinYang/Udacity_Data_Analyst/tree/master/img/git_branch.png){:.border}
+    - ![Git Branches](https://raw.githubusercontent.com/YestinYang/Udacity_Data_Analyst/master/img/git_branch.png){:.border}
   - `git log --oneline --graph --all` shows all branches and commits, also relationships
   - `git merge`
     - `git merge <other_branch>` merge a branch into current branch, like `master`
@@ -64,14 +64,14 @@ mathjax_autoNumber: true
         - git stop merging and return a single file, combining conflicting portions from both files, showing conflicts with indicators
         - update the file and commit it, then merge is completed automatically
         - you can just commit it and let merge done, but the conflicts will show in your file
-      - ![Git Merge](https://github.com/YestinYang/Udacity_Data_Analyst/tree/master/img/git_merge.png){:.border}
+      - ![Git Merge](https://raw.githubusercontent.com/YestinYang/Udacity_Data_Analyst/master/img/git_merge.png){:.border}
     - `git reset --hard HEAD^` cancel merge
 - Undo Changes
   - `git commit --amend` alter the most -recent commit
     - `git add` and run `git commit --amend` to add new files into last commit
   - `git revert <SHA>` create a new commit reversing given commit
   - Commit Reference
-    - ![Quoting](https://github.com/YestinYang/Udacity_Data_Analyst/tree/master/img/git_father.png){:.border}
+    - ![Quoting](https://raw.githubusercontent.com/YestinYang/Udacity_Data_Analyst/master/img/git_father.png){:.border}
   - `git reset` erases commit
     - `git reset --mixed HEAD^^` move `HEAD` back to `HEAD^^`, and move changes of `HEAD^` into working dir (default)
     - `git reset --soft HEAD^^` move changes back to stage
@@ -96,7 +96,7 @@ mathjax_autoNumber: true
   - after `push` , `git log` will show the commit location of remote-tracking branch
 - `git fetch <remote_shortname> <remote_branch>` download remote info and move remote-tracking 
 - `git pull <remote_shortname> <remote_branch>` fetch and merge with local branch
-- ![fetch and merge](https://github.com/YestinYang/Udacity_Data_Analyst/tree/master/img/git_fetch.png){:.border}
+- ![fetch and merge](https://raw.githubusercontent.com/YestinYang/Udacity_Data_Analyst/master/img/git_fetch.png){:.border}
 
 ### GitHub: Collaborating with Fork
 
@@ -116,15 +116,15 @@ mathjax_autoNumber: true
 
 - Pull Request
 
-  - ![pull request](https://github.com/YestinYang/Udacity_Data_Analyst/tree/master/img/git_pull_request.png){:.border}
+  - ![pull request](https://raw.githubusercontent.com/YestinYang/Udacity_Data_Analyst/master/img/git_pull_request.png){:.border}
 
 - Fetch and Pull from Upstream
 
-  - ![upstream](https://github.com/YestinYang/Udacity_Data_Analyst/tree/master/img/git_upstream.png){:.border}
+  - ![upstream](https://raw.githubusercontent.com/YestinYang/Udacity_Data_Analyst/master/img/git_upstream.png){:.border}
 
 - `git rebase` transfer commits onto a new base
 
   - `git rebase -i HEAD~3` squash last three commits interactively (refer to [YouTube](https://www.youtube.com/watch?time_continue=222&v=cL6ehKtJLUM) for detailed setting)
     - need force `git push` due to deleting commits
   - Backup strategy: create backup branch before `rebase` 
-  - ![Rebase](https://github.com/YestinYang/Udacity_Data_Analyst/tree/master/img/git_rebase.png){:.border}
+  - ![Rebase](https://raw.githubusercontent.com/YestinYang/Udacity_Data_Analyst/master/img/git_rebase.png){:.border}
