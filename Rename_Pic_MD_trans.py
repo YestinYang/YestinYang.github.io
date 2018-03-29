@@ -1,7 +1,7 @@
 import os
 
 dir = "d:/new post"
-blog_date = "2018-01-29"
+blog_date = "2018-03-13"
 
 def rename_file(dir, blog_date):
     # 1) get the list of file name
