@@ -34,7 +34,7 @@ mathjax_autoNumber: true
 **Unsupervised Learning:** no idea about the result
 - Social network analysis / news grouping / ..
 - Cocktail party problem: separate the overlapping sounds
-	- easily implement in Octave: [W,s,v] = svd((repmat(sum(x.\*x,1),size(x,1),1).\*x)\*x');
+	- easily implement in Octave: `[W,s,v] = svd((repmat(sum(x.\*x,1),size(x,1),1).\*x)\*x');`
 	- Octave is commonly used for prototyping machine learning algorithm before going to industry
 
 ### Model and Cost Function
@@ -143,6 +143,7 @@ $$\theta := \theta - \alpha\frac{1}{m}\sum_{i=1}^{m}[(h_\theta(x^{(i)}) - y^{(i)
 	- pros: auto pick $$\alpha$$ / faster descent
 	- cons: complex
 - Call integrated tools to apply advanced algorithms
+
 ```matlab
 % Create function for cost and gradient
 function [J, grad] = costFunction(theta, X, y)
@@ -224,6 +225,7 @@ $$\begin{gather*} J(\Theta) = - \frac{1}{m} \sum_{i=1}^m \sum_{k=1}^K \left[y^{(
 
 **Unroll and reshape theta and gradient:**
 - due to `fminunc` only handle theta as vector
+
 ```matlab
 % Unroll to vector
 thetaVector = [ Theta1(:); Theta2(:); Theta3(:) ]
@@ -338,7 +340,7 @@ $$h_\theta(x) =\begin{cases}    1 & \text{if} \ \Theta^Tx \geq 0 \\    0 & \text
 	- If we have outlier examples that we don't want to affect the decision boundary, then we can reduce C
 
 **SVM controls the decision margin between classes:**
-- From the definition of vector inner product, $$\theta^Tx^{(i)} = |\vec \theta|\cdot|\vec {x^{(i)}}|\cdot cos$$ represents the projection of vector $$\vec {x^{(i)}}$$ along the vector $$\vec \theta$$, times the length of vector $$\vec \theta$$
+- From the definition of vector inner product, $$\theta^Tx^{(i)} = \|\vec \theta\|\cdot\|\vec {x^{(i)}}\|\cdot cos$$ represents the projection of vector $$\vec {x^{(i)}}$$ along the vector $$\vec \theta$$, times the length of vector $$\vec \theta$$
 	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516501008482.png)
 - Therefore, by SVM cost function, $$\theta$$ is trained to guarantee the projection of all samples upon vector $$\vec \theta$$ is at least 1 or -1, with shortest $$\vec \theta$$ (regularization term)
 	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516501443270.png)
@@ -380,7 +382,7 @@ $$x^{(i)} \rightarrow \begin{bmatrix}f_1^{(i)} = similarity(x^{(i)}, l^{(1)}) \n
 ### Clustering 
 
 **K-means:**
-- Cost function $$J(c^{(i)},\dots,c^{(m)},\mu_1,\dots,\mu_K) = \dfrac{1}{m}\sum_{i=1}^m ||x^{(i)} - \mu_{c^{(i)}}||^2$$
+- Cost function $$J(c^{(i)},\dots,c^{(m)},\mu_1,\dots,\mu_K) = \dfrac{1}{m}\sum_{i=1}^m \|\|x^{(i)} - \mu_{c^{(i)}}\|\|^2$$
 	- also called the distortion of the training examples
 
 ``` matlab
@@ -393,7 +395,7 @@ for k = 1 to K:
       mu(k):= average (mean) of points assigned to cluster k
 ```
 
-- 1st loop: $$c^{(i)} = argmin_k\ ||x^{(i)} - \mu_k||^2$$
+- 1st loop: $$c^{(i)} = argmin_k\ \|\|x^{(i)} - \mu_k\|\|^2$$
 - 2nd loop: $$\mu_k = \dfrac{1}{n}[x^{(k_1)} + x^{(k_2)} + \dots + x^{(k_n)}] \in \mathbb{R}^n$$
 
 **Random initialization:** 50-1000 iterations to avoid local optima
@@ -493,7 +495,7 @@ The ET drift annotation system in GF is a kind of anomaly detection, which uses 
 - Original AD treats each features as `independent`, modeling them separately, which means only a feature with extreme low probability density, then the sample is detected as anomaly
 	- Graphically, original algorithm (pink circles) generate ellipse with both axis paralleling to the direction of features, while multivariate version (blue circles) covers more general cases by generating ellipse with rotated axis, considering `correlation between features`
 	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516845153919.png)
-- Instead of original algorithm, $$p(x;\mu,\Sigma) = \dfrac{1}{(2\pi)^{n/2} |\Sigma|^{1/2}} exp(-1/2(x-\mu)^T\Sigma^{-1}(x-\mu))$$
+- Instead of original algorithm, $$p(x;\mu,\Sigma) = \dfrac{1}{(2\pi)^{n/2} \|\Sigma\|^{1/2}} exp(-1/2(x-\mu)^T\Sigma^{-1}(x-\mu))$$
 
 **Comparison between Two Algorithm:**
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516960721200.png)
@@ -555,7 +557,7 @@ $$J(x,\theta) = \dfrac{1}{2} \displaystyle \sum_{(i,j):r(i,j)=1}((\theta^{(j)})^
 - $$x = $$ features of phone, how many words in user query match name of phone, how many words in query match description of phone, etc.
 - $$y=1$$ is click on link.
 - Generate 10 samples per search action.
-- Learn $$p(y=1|x;\theta)$$.
+- Learn $$p(y=1\|x;\theta)$$.
 - Drop these 10 samples and continue gradient descent with new 10 samples
 
 ### Map Reduce and Data Parallelism
