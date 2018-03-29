@@ -135,3 +135,7 @@ Decision making senario
 
 **V2: when end-to-end is better**
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-06_1512227310789.png){:.border}
+
+------
+
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-06_cert.png){:.border}

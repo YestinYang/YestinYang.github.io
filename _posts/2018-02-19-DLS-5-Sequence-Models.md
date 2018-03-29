@@ -190,3 +190,7 @@ deeplearning.ai by Andrew Ng on Coursera
 
 **Approach 2: CTC Model:** Connectionist Temporal Classification
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-02-19_1518864757190.png){:.border}
+
+------
+
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-02-19_cert.png){:.border}

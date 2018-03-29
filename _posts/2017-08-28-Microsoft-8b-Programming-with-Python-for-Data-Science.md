@@ -1023,6 +1023,10 @@ Always reserve a seperate testing set to conduct final scoring until the study i
 - [Plotting Higher Dimensionality Boundaries][15] by finding keypoints of p~0.5 then projecting into 2D
 - Audio Machine Learning [Voice Activity Detection in Python][16] / [Simple Minded Audio Classifier for Python][17]
 
+------
+
+![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-08-28_cert.png){:.border}
+
 ----
 [1]: https://rvlasveld.github.io/blog/2013/07/12/introduction-to-one-class-support-vector-machines/)
 [2]: https://courses.edx.org/courses/course-v1:Microsoft+DAT210x+3T2017/courseware/12621a4064aa4d92874a9d8a953734c5/e43e044ae9c045298766ece7d3881386/?child=first

@@ -181,3 +181,7 @@ V3&V4&V5: cost function
 
 ### 1D and 3D Convolution
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-25_1514186727566.png){:.border}
+
+------
+
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-25_cert.png){:.border}

@@ -190,3 +190,7 @@ to verify the back propagation is correctly implemented
 **V2: TensorFlow**
 - only define cost function (forward prop) by hand, and the backward part will be automatically done
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512372216189.png){:.border}
+
+------
+
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_cert.png){:.border}

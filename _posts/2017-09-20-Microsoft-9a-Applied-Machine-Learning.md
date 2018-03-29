@@ -381,3 +381,7 @@ Simplest way --> threshold (move out the points under or over threshold)
 ### Image Analysis In Context
 
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_1505777992871.png){:.border}
+
+------
+
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-09-20_cert.png){:.border}
