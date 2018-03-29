@@ -40,10 +40,10 @@ mathjax_autoNumber: true
 ### Model and Cost Function
 
 **Model Representation**
-![@h: hypothesis that mapping X to Y](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515465654321.png)
+![@h: hypothesis that mapping X to Y](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515465654321.png){:.border}
 
 **Training a Model**
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515466808544.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515466808544.png){:.border}
 
 **Cost Function:** the target we are going to minimize
 - Square error function for regression (also used in DL)
@@ -59,7 +59,7 @@ $$J(\theta_0, \theta_1) = \dfrac {1}{2m} \displaystyle \sum _{i=1}^m \left ( \ha
 **Gradient Descent of Linear Regression**
 - it is always a convex function without local optima
 - Batch Gradient Descent: consider all training examples when doing gradient descent, corresponding to minibatch
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515484236489.png)![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515484175265.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515484236489.png){:.border}![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515484175265.png){:.border}
 
 ### Linear Algebra Review
 
@@ -91,7 +91,7 @@ $$J(\theta_0, \theta_1) = \dfrac {1}{2m} \displaystyle \sum _{i=1}^m \left ( \ha
 	- target is to make `approximately` $$-1\le x_i\le 1$$ or $$-0.5\le x_i\le 0.5$$
 
 **Gradient Descent Optimization 2: Learning Rate**
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515562969081.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515562969081.png){:.border}
 
 **Feature Engineering:**
 - Combine features, such as using square instead of length + width
@@ -104,7 +104,7 @@ $$J(\theta_0, \theta_1) = \dfrac {1}{2m} \displaystyle \sum _{i=1}^m \left ( \ha
 
 **Normal Equation:** alternative analytical method of gradient descent in linear regression
 - use $$m \times n$$ `matrix`
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515567296175.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515567296175.png){:.border}
 - pros: no need to consider scalar / faster
 - if $$X^TX$$ is non-invertible
 	- pseudo inverse function can handle
@@ -122,7 +122,7 @@ $$J(\theta_0, \theta_1) = \dfrac {1}{2m} \displaystyle \sum _{i=1}^m \left ( \ha
 
 **Decision Boundary:**
 - property of hypothesis, not of dataset
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515664737110.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515664737110.png){:.border}
 
 ### Logistic Regression Model
 
@@ -131,7 +131,7 @@ $$\begin{align*}& J(\theta) = \dfrac{1}{m} \sum_{i=1}^m \mathrm{Cost}(h_\theta(x
 $$\text{or}$$
 $$\mathrm{Cost}(h_\theta(x),y) = - y \; \log(h_\theta(x)) - (1 - y) \log(1 - h_\theta(x))$$
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515666797283.png)![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515666801993.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515666797283.png){:.border}![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515666801993.png){:.border}
 
 **Gradient Descent:**
 $$\theta := \theta - \alpha\frac{1}{m}\sum_{i=1}^{m}[(h_\theta(x^{(i)}) - y^{(i)}) \cdot x^{(i)}]$$
@@ -171,7 +171,7 @@ initialTheta = zeros(2,1);
 **One-vs-All:**
 - Train multiple hypothesis returning probability of belonging to each calss
 - Run `max` to output the class with highest prob
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515726957477.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515726957477.png){:.border}
 
 **PS:** also can use softmax here, but need to replace all sigmoid activate functions with a single softmax activate function
 
@@ -209,7 +209,7 @@ $$\begin{align*}& \theta = \left( X^TX + \lambda \cdot L \right)^{-1} X^Ty \newl
 ### Applications
 
 **Building XNOR logic:** non-linear decision boundary
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515827261588.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515827261588.png){:.border}
 
 ## Week 5: Neural Networks: Learning
 
@@ -269,11 +269,11 @@ $$\dfrac{\partial}{\partial\Theta_j}J(\Theta) \approx \dfrac{J(\Theta_1, \dots, 
 ### Bias vs. Variance
 
 **Regularization and Bias-Variance:**
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516162002799.png) ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516175002063.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516162002799.png){:.border} ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516175002063.png){:.border}
 
 **Machine Learning Diagnostic with Learning Curves:** to understand bias-variance of your model
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516175634900.png)
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516175696214.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516175634900.png){:.border}
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516175696214.png){:.border}
 
 **What to Do Next:** based on the diagnostic result of bias-variance
 - Fixed high variance (overfitting)
@@ -289,7 +289,7 @@ $$\dfrac{\partial}{\partial\Theta_j}J(\Theta) \approx \dfrac{J(\Theta_1, \dots, 
 
 ### Case Study: Building a Spam Classifier
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516328393933.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516328393933.png){:.border}
 
 > *Brainstorming* before starting helps you saving plenty of time
 
@@ -297,9 +297,9 @@ $$\dfrac{\partial}{\partial\Theta_j}J(\Theta) \approx \dfrac{J(\Theta_1, \dots, 
 1. Start with a simple algorithm, implement it quickly, and test it early on your cross validation data.
 2. Plot learning curves to decide if more data, more features, etc. are likely to help.
 3. `Error Analysis` on CV set -- Manually examine the errors on examples in the cross validation set and try to spot a trend where most of the errors were made
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516347837584.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516347837584.png){:.border}
 4. `Single numerical evaluation` to test whether an improvement approach works or not, such as accuracy
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516348007010.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516348007010.png){:.border}
 
 ### Handling Skewed Data
 
@@ -307,11 +307,11 @@ $$\dfrac{\partial}{\partial\Theta_j}J(\Theta) \approx \dfrac{J(\Theta_1, \dots, 
 
 **Error Metrics Analysis for Skewed Classes:**
 - Set y=1 as rare class, and if both precision and recall are high, then the model performs well
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516349596835.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516349596835.png){:.border}
 
 **Precision-Recall Trade Off:** using F score instead
 - By tuning threshold of logistic regression $$h_\Theta(x) \ge \text{threshold}$$, precision and recall has reverse correlation
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516350887616.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516350887616.png){:.border}
 - `F Score` ($$F_1 \ \text{Score}$$)takes both precision and recall into consideration as $$2 \frac{PR}{P+R}$$
 
 ### Using Large Data Sets
@@ -329,7 +329,7 @@ $$\dfrac{\partial}{\partial\Theta_j}J(\Theta) \approx \dfrac{J(\Theta_1, \dots, 
 ### Large Margin Classification
 
 **From logistic regression to SVM:**
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516498715220.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516498715220.png){:.border}
 
 - Compared to LR:
 	- SVM use hinge loss as activation function `in cost function`, which considers margin between 2 groups, instead of considering the `probability difference` between prediction $$h_\theta(x)$$ and true label $$y$$ in LR
@@ -341,9 +341,9 @@ $$h_\theta(x) =\begin{cases}    1 & \text{if} \ \Theta^Tx \geq 0 \\    0 & \text
 
 **SVM controls the decision margin between classes:**
 - From the definition of vector inner product, $$\theta^Tx^{(i)} = \|\vec \theta\|\cdot\|\vec {x^{(i)}}\|\cdot cos$$ represents the projection of vector $$\vec {x^{(i)}}$$ along the vector $$\vec \theta$$, times the length of vector $$\vec \theta$$
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516501008482.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516501008482.png){:.border}
 - Therefore, by SVM cost function, $$\theta$$ is trained to guarantee the projection of all samples upon vector $$\vec \theta$$ is at least 1 or -1, with shortest $$\vec \theta$$ (regularization term)
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516501443270.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516501443270.png){:.border}
 
 ### Kernels
 
@@ -354,7 +354,7 @@ $$h_\theta(x) =\begin{cases}    1 & \text{if} \ \Theta^Tx \geq 0 \\    0 & \text
 $$f = similarity(x, l) = \exp(-\dfrac{||x - l||^2}{2\sigma^2})$$
 $$x^{(i)} \rightarrow \begin{bmatrix}f_1^{(i)} = similarity(x^{(i)}, l^{(1)}) \newline f_2^{(i)} = similarity(x^{(i)}, l^{(2)}) \newline\vdots \newline f_m^{(i)} = similarity(x^{(i)}, l^{(m)}) \newline\end{bmatrix}$$
 - Hyperparameters: $$\sigma^2$$ the higher the further sample prone to be in a similar group of this landmark
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516505558251.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516505558251.png){:.border}
 
 ### SVMs in Practice
 
@@ -404,16 +404,16 @@ for k = 1 to K:
 
 **Choosing number of clusters $$K$$:**
 - Follow the application purpose of running clustering
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516674482631.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516674482631.png){:.border}
 - Elbow method (less used)
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516674550032.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516674550032.png){:.border}
 
 **Application:**
 - Compress image from 24-bit to 4-bit
 	- find out the major 16 colors in a image (centroids)
 	- store these colors with 24*16 bit
 	- replace color of each pixel with corresponding centroid color 1~16 (4-bit)
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516765068277.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516765068277.png){:.border}
 
 **Bonus:** [Drawbacks of K-Means](https://stats.stackexchange.com/questions/133656/how-to-understand-the-drawbacks-of-k-means)
 - k-means assumes the variance of the distribution of each attribute (variable) is spherical
@@ -431,7 +431,7 @@ for k = 1 to K:
 - Visualization
 
 **Optimization target:** find a direction onto which to project the data so as to minimize the projection error $$\frac{1}{m}\sum_{i=1}^m\|x^{(i)}-x^{(i)}_\text{approx}\|^2$$
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516715214198.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516715214198.png){:.border}
 
 **Procedure of PCA:**
 1. Feature scaling with zero mean and comparable scale, for example, $$x_j^{(i)} = \dfrac{x_j^{(i)} - \mu_j}{s_j}$$
@@ -446,7 +446,7 @@ where $$S_{ii}$$ is from diagonal matrix `S` in `[U,S,V] = svd(Sigma)`
 
 **Applications:**
 - Reconstruction from compressed representation
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516753636234.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516753636234.png){:.border}
 - Speedup supervised learning
 	- PCA should be defined by training set, and then apply to validation and test set
 	- useful for image dataset
@@ -489,23 +489,23 @@ The ET drift annotation system in GF is a kind of anomaly detection, which uses 
 - Transform features to Gaussian distribution, by using $$log(x+c)$$, $$\sqrt{x}$$, $$x^{1/3}$$ etc.
 - Manually choose / add / create features that might take on unusually large or small values in the event of an anomaly (could be based on your understanding of the application)
 	- Otherwise, use multivariate Gaussian distribution version
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516801213223.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516801213223.png){:.border}
 
 **Anomaly Detection with Multivariate Gaussian Distribution:**
 - Original AD treats each features as `independent`, modeling them separately, which means only a feature with extreme low probability density, then the sample is detected as anomaly
 	- Graphically, original algorithm (pink circles) generate ellipse with both axis paralleling to the direction of features, while multivariate version (blue circles) covers more general cases by generating ellipse with rotated axis, considering `correlation between features`
-	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516845153919.png)
+	- ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516845153919.png){:.border}
 - Instead of original algorithm, $$p(x;\mu,\Sigma) = \dfrac{1}{(2\pi)^{n/2} \|\Sigma\|^{1/2}} exp(-1/2(x-\mu)^T\Sigma^{-1}(x-\mu))$$
 
 **Comparison between Two Algorithm:**
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516960721200.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516960721200.png){:.border}
 
 ### Recommendation
 
 > Special category of ML: feature learning (automatically select good features)
 
 **Content Based Recommendation:** w/o feature learning because features are known already
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516970355937.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516970355937.png){:.border}
 
 **Collaborative Filtering Recommendation:**
 > Repeat learning features (contents) from all user rates, and then learning parameters (user preference) based on contents.
@@ -520,11 +520,11 @@ $$min_{x^{(1)},\dots,x^{(n_m)}} \dfrac{1}{2} \displaystyle \sum_{i=1}^{n_m}  \su
 $$J(x,\theta) = \dfrac{1}{2} \displaystyle \sum_{(i,j):r(i,j)=1}((\theta^{(j)})^Tx^{(i)} - y^{(i,j)})^2 + \dfrac{\lambda}{2}\sum_{i=1}^{n_m} \sum_{k=1}^{n} (x_k^{(i)})^2 + \dfrac{\lambda}{2}\sum_{j=1}^{n_u} \sum_{k=1}^{n} (\theta_k^{(j)})^2$$
 
 **Vectorization with Low Rank Matrix Factorization:**
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1517049502383.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1517049502383.png){:.border}
 
 **Mean Normalization for User w/o Any Rating:**
 - Normalize rates with their mean before running algorithm
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1517056406628.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1517056406628.png){:.border}
 
 ## Week 10: Large Scale Machine Learning
 
@@ -597,7 +597,7 @@ $$J(x,\theta) = \dfrac{1}{2} \displaystyle \sum_{(i,j):r(i,j)=1}((\theta^{(j)})^
 
 > Prioritize your work in a pipeline
 
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1517218598529.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1517218598529.png){:.border}
 
 ----
-![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1517220172327.png)
+![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1517220172327.png){:.border}
