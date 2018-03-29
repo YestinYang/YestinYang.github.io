@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Microsoft Certificate in Data Science -- Course 8b Programming with Python for Data Science
+title: Programming with Python for Data Science - Microsoft Certificate in Data Science 8b 
 key: 20170828
 tags:
   - Microsoft

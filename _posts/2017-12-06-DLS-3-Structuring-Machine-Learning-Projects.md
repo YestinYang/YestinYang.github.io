@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Specialization 3 -- Structuring Machine Learning Projects
+title: Structuring Machine Learning Projects - Deep Learning Specialization 3
 key: 20171206
 tags:
   - Coursera

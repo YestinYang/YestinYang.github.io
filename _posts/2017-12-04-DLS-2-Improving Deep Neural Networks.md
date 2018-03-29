@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Specialization 2 -- Improving Deep Neural Networks
+title: Improving Deep Neural Networks - Deep Learning Specialization 2
 key: 20171204
 tags:
   - Coursera

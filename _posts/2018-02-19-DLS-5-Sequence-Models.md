@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Specialization 5 -- Sequence Models
+title: Sequence Models - Deep Learning Specialization 5
 key: 20180219
 tags:
   - Coursera

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Microsoft Certificate in Data Science -- Course 9a Applied Machine Learning
+title: Applied Machine Learning - Microsoft Certificate in Data Science 9a
 key: 20170928
 tags:
   - Microsoft

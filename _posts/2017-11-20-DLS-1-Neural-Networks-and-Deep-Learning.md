@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Specialization 1 -- Neural Networks and Deep Learning
+title: Neural Networks and Deep Learning - Deep Learning Specialization 1
 key: 20171120
 tags:
   - Coursera

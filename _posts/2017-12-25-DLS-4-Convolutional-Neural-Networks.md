@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Specialization 4 -- Convolutional Neural Networks
+title: Convolutional Neural Networks - Deep Learning Specialization 4
 key: 20171225
 tags:
   - Coursera
