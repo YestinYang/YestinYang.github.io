@@ -126,6 +126,7 @@ V4&V5: with multiple samples
 V6: different choices of activation functions
 - activation function: determine the output
 - for logistic regression, we normally use sigmoid as activation function, but some other functions are working better
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-11-20_1510971902507.png){:.border}
 
 V7&V8: why we need non-linear activation functions

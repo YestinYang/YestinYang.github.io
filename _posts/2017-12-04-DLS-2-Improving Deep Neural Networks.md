@@ -113,6 +113,7 @@ to verify the back propagation is correctly implemented
 ### RMSprop
 
 **V7: RMSprop**
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512012576865.png){:.border}
 
 ### Adam Optimization
@@ -168,6 +169,7 @@ to verify the back propagation is correctly implemented
 
 **V4: batch norm at test time**
 -  estimate mean and variance by weighted average across mini-batches --> so need to define mini-batch size during testing
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-04_1512357992489.png){:.border}
 
 ### Multi-class Classification

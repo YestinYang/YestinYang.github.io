@@ -40,9 +40,11 @@ mathjax_autoNumber: true
 ### Model and Cost Function
 
 **Model Representation**
+
 ![@h: hypothesis that mapping X to Y](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515465654321.png){:.border}
 
 **Training a Model**
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515466808544.png){:.border}
 
 **Cost Function:** the target we are going to minimize
@@ -59,6 +61,7 @@ $$J(\theta_0, \theta_1) = \dfrac {1}{2m} \displaystyle \sum _{i=1}^m \left ( \ha
 **Gradient Descent of Linear Regression**
 - it is always a convex function without local optima
 - Batch Gradient Descent: consider all training examples when doing gradient descent, corresponding to minibatch
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515484236489.png){:.border}![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1515484175265.png){:.border}
 
 ### Linear Algebra Review
@@ -269,6 +272,7 @@ $$\dfrac{\partial}{\partial\Theta_j}J(\Theta) \approx \dfrac{J(\Theta_1, \dots, 
 ### Bias vs. Variance
 
 **Regularization and Bias-Variance:**
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516162002799.png){:.border} ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516175002063.png){:.border}
 
 **Machine Learning Diagnostic with Learning Curves:** to understand bias-variance of your model
@@ -406,6 +410,7 @@ for k = 1 to K:
 - Follow the application purpose of running clustering
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516674482631.png){:.border}
 - Elbow method (less used)
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516674550032.png){:.border}
 
 **Application:**
@@ -431,6 +436,7 @@ for k = 1 to K:
 - Visualization
 
 **Optimization target:** find a direction onto which to project the data so as to minimize the projection error $$\frac{1}{m}\sum_{i=1}^m\|x^{(i)}-x^{(i)}_\text{approx}\|^2$$
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2018-01-29_1516715214198.png){:.border}
 
 **Procedure of PCA:**

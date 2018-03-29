@@ -53,6 +53,7 @@ deeplearning.ai by Andrew Ng on Coursera
 
 **V2: avoidable bias**
 - human-level performance can tell the expectation on how well your ML does on training sets, but not too well
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-06_1511941965152.png){:.border}
 
 **V3: define human-level performance and error analysis**

@@ -55,6 +55,7 @@ V10: full CNN example
 
 ### Why CNN works
 V11: why CNN
+
 ![Alt text](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-12-25_1513067682808.png){:.border}
 
 
