@@ -99,8 +99,14 @@ predictions = cls.predict(X_test)
 
 ## Stacking Architecture
 
+**[mlxtend](http://rasbt.github.io/mlxtend/)**
+
+- Ensemble stacking for classifier or regressor, including standard version and CV version ![](http://rasbt.github.io/mlxtend/user_guide/regressor/StackingRegressor_files/stackingregression_overview.png)
+- Also has other useful tool for data science, such as feature selector
+
 **[StackNet](https://github.com/kaz-Anova/StackNet)**
-- Stacking: replace the neurons of neural network (linear regression) with any supervised learning algorithm, and trained only from forward prop due to no gradient
+
+- Stacking in neural network way: replace the neurons of neural network (linear regression) with any supervised learning algorithm, and trained only from forward prop due to no gradient
 - Restacking
 ![Restacking](https://github.com/kaz-Anova/StackNet/blob/master/images/stacknet_modes.png?raw=true)
 
