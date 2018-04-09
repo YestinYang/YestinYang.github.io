@@ -97,6 +97,11 @@ predictions = cls.predict(X_test)
 **[Hyperopt](http://hyperopt.github.io/hyperopt/)**
 - Hyperparameter search with Random Search and Tree of Parzen Estimators (TPE)
 
+**[hyperopt-sklearn](https://github.com/hyperopt/hyperopt-sklearn)**
+
+- Hyperopt-based model selection among machine learning algorithms in scikit-learn, without passing search space
+- Support classifiers and regressors
+
 ## Stacking Architecture
 
 **[mlxtend](http://rasbt.github.io/mlxtend/)**
