@@ -96,6 +96,7 @@ predictions = cls.predict(X_test)
 
 **[Hyperopt](http://hyperopt.github.io/hyperopt/)**
 - Hyperparameter search with Random Search and Tree of Parzen Estimators (TPE)
+- [Hyperparameter Tuning with hyperopt in Python](http://steventhornton.ca/hyperparameter-tuning-with-hyperopt-in-python/)
 
 **[hyperopt-sklearn](https://github.com/hyperopt/hyperopt-sklearn)**
 
