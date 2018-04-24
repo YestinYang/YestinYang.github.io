@@ -131,8 +131,9 @@ Schemas and Object Names
     - `CASE` , like `if-else` in python
 
       - ```sql
-        /* Select Name, and then go to the other column
-        if SellEndDate is NULL, then output On Sale (can use ISNULL function), otherwise Discontinued, in SalesStatus column */
+        /* Select Name, and then go to the other column:
+        if SellEndDate is NULL, then output On Sale (can use ISNULL function),
+        otherwise Discontinued, in SalesStatus column */
         SELECT Name,
         	CASE
         		WHEN SellEndDate IS NULL THEN 'On Sale'
@@ -142,7 +143,7 @@ Schemas and Object Names
         ```
 
       - ```sql
-        /* If Size is number, output number
+        /* If Size is number, output number;
         if Size is NULL, output n/a */
         SELECT Name,
         	CASE Size
