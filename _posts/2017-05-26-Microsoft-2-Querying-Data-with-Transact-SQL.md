@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Querying Data with Transact-SQL - Microsoft Certificate in Data Science 2 
-key: 20170526
+key: 20170516
 tags:
   - Microsoft
   - Notes
@@ -31,7 +31,7 @@ lang: en
 
 
 Most relational databases are normalized, with relationships defined between tables through primary and foreign keys
-- ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-26_E52EF56E1041.png){:.border}
+- ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-16_E52EF56E1041.png){:.border}
 
 Schemas and Object Names
 
@@ -43,7 +43,7 @@ Schemas and Object Names
         [server_name.][database_name.][schema_name.]object_name
         ```
 
-      - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-26_689F8A592354.png){:.border}
+      - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-16_689F8A592354.png){:.border}
 
       - in most cases we abbreviate into `schema_name.object_name` 
 
@@ -56,7 +56,7 @@ Schemas and Object Names
 - The SELECT Statement
   - Sequence of Statement Running
 
-    - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-26_9605A65C32DC.png){:.border}
+    - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-16_9605A65C32DC.png){:.border}
     - Main logic here is that grab data from certain source, and do conditioning, filtering and sorting
 
   - Basic Examples
@@ -80,7 +80,7 @@ Schemas and Object Names
 
 - Working with Data Types
 
-  - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-26_459E8DC2A653.png){:.border}
+  - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-16_459E8DC2A653.png){:.border}
   - Implicit Conversion: compatible data types can be automatically converted between subtypes
   - Explicit Conversion: requires an explicit conversion function
     - `CAST` 
