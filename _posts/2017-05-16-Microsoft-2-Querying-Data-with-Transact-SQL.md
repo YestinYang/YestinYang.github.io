@@ -232,3 +232,98 @@ lang: en
 
 ## 3. Querying Multiple Tables with Joins (Columns)
 
+- Introductions to Joins -- combine rows from multiple tables by specifying matching criteria
+
+  - Usually based on on primary key - foreign key relationships *(like VLOOKUP)*
+
+    - Collection of tables of Employee and SalesOrder
+
+  - ```sql
+    -- JOIN statement in FROM clause
+    -- SQL will join first, and then select from new table
+    SELECT ...
+    FROM Table1 JOIN Table2
+         ON <on_predicate>;
+    ```
+
+### Inner Joins
+
+> Default of JOIN statement, starting with Cartesian product then adds filter
+>
+> - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-16_09A63D2C8E11.png){:.border}
+
+- ```sql
+  -- Normal Inner Join
+  SELECT p.Name As ProductName, c.Name AS Category
+  FROM SalesLT.Product AS p
+  JOIN SalesLT.ProductCategory As c
+  ON p.ProductCategoryID = c.ProductCategoryID;
+  ```
+
+- ```sql
+  -- Join more than 2 tables
+  SELECT *
+  FROM SalesLT.SalesOrderHeader AS oh
+  JOIN SalesLT.SalesOrderDetail AS od
+  ON od.SalesOrderID = oh.SalesOrderID
+  JOIN SalesLT.Product AS p
+  ON od.ProductID = p.ProductID
+  ```
+
+- ```sql
+  -- Multiple join predicates
+  SELECT *
+  FROM SalesLT.SalesOrderHeader AS oh
+  JOIN SalesLT.SalesOrderDetail AS od
+  ON od.SalesOrderID = oh.SalesOrderID
+  JOIN SalesLT.Product AS p
+  ON od.ProductID = p.ProductID AND od.UnitPrice < p.ListPrice
+  -- Like what does WHERE do as a filtering
+  ```
+
+### Outer Joins
+
+> Starting with Cartesian product, filtered, adds back non-matching rows (with NULL placeholders)
+>
+> - Preserved one table --> matches from the other --> additional rows (NULL) added to results for non-matched rows
+> - Return all employees, and sales info of those has order amount; employee has no order amount will has NULL in that column
+> - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-16_334C7CCBF100.png){:.border}
+
+- ```sql
+  -- Left outer join
+  SELECT *
+  FROM SalesLT.Product AS p
+  LEFT JOIN SalesLT.SalesOrderDetail AS od
+  ON p.ProductID = od.ProductID
+  LEFT JOIN SalesLT.SalesOrderHeader AS oh
+  ON od.SalesOrderID = oh.SalesOrderID
+  ```
+
+- ```sql
+  -- Outer join combined with inner join
+  SELECT *
+  FROM SalesLT.Product AS p
+  LEFT JOIN SalesLT.SalesOrderDetail AS od
+  ON p.ProductID = od.ProductID
+  LEFT JOIN SalesLT.SalesOrderHeader AS oh
+  ON od.SalesOrderID = oh.SalesOrderID
+  INNER JOIN SalesLT.ProductCategory AS c
+  ON p.ProductCategoryID = c.ProductCategoryID
+  ```
+
+### Cross Joins
+
+> Cartesian product only, which outputs all possible combinations
+>
+> - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-16_183C2A9C931B.png){:.border}
+
+### Self Joins
+
+> Compare rows in same table to each other -- create one more instances as same as the original table using alias, then left join
+>
+> - ![](https://github.com/YestinYang/YestinYang.github.io/raw/master/screenshots/2017-05-16_8689EDCB181A.png){:.border}
+
+## 4. UNION Queries (Rows)
+
+
+
